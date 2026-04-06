@@ -182,7 +182,7 @@ python -m scrapy crawl email_spider
 ## 🤝 Contributing
 
 **Contributions are welcome!
-Feel free to open issues or submit pull requests.**
+Feel free to open issues or submit pull or push requests.**
 
 ---
 
