@@ -76,6 +76,7 @@ python email_scraper_project/spiders/collect_domains.py
 * Extract real company websites
 * Save them into `domains.txt`
 
+**Note**: Dont forgot to change the state and the services (Keyword or sreach term as per your needs) inside the **email_scraper_project/spiders/collect_domains.py**
 ---
 
 ### Step 2: Run Email Scraper
