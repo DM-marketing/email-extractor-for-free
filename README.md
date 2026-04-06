@@ -75,6 +75,8 @@ python email_scraper_project/spiders/collect_domains.py
 * Search business queries
 * Extract real company websites
 * Save them into `domains.txt`
+<img width="1441" height="997" alt="image" src="https://github.com/user-attachments/assets/64e51888-6c6b-46db-b6a7-3012cb1f8bdf" />
+
 
 **Note**: Dont forgot to change the state and the services (Keyword or sreach term as per your needs) inside the **email_scraper_project/spiders/collect_domains.py**
 ---
@@ -92,6 +94,7 @@ Run:
 ```
 python -m scrapy crawl email_spider
 ```
+<img width="1429" height="1000" alt="image" src="https://github.com/user-attachments/assets/4be69325-82c2-43f3-a84a-53f282a5c0ec" />
 
 ---
 
@@ -105,6 +108,7 @@ info@company.com,https://company.com/contact
 support@business.co.uk,https://business.co.uk
 ```
 
+
 ---
 
 ## 🔧 Configuration
@@ -114,6 +118,7 @@ support@business.co.uk,https://business.co.uk
 * `SERVICES` → Change business types
 * `STATES` → Change location targeting
 * `BAD_DOMAINS` → Block unwanted sites
+<img width="1884" height="1043" alt="image" src="https://github.com/user-attachments/assets/974687fb-3334-4af6-aec2-aad35cf9f5f8" />
 
 ---
 
@@ -176,8 +181,8 @@ python -m scrapy crawl email_spider
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-Feel free to open issues or submit pull requests.
+**Contributions are welcome!
+Feel free to open issues or submit pull requests.**
 
 ---
 
