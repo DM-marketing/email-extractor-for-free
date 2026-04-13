@@ -59,3 +59,12 @@
 2026-04-13 09:27:31,627 | INFO | leadgen.playwright_collect | --- YAHOO (target +10 domains; max 1 SERP page(s); total cap 80) ---
 2026-04-13 09:27:34,621 | INFO | leadgen.playwright_collect | --- YAHOO done: +0 domains (session total 9) ---
 2026-04-13 09:27:36,378 | INFO | leadgen.playwright_collect | Saved 0 new domains to D:\emial AI\email_scraper_project\domains.txt (unique this run: 9; per-engine cap was 10)
+2026-04-13 09:51:04,971 | INFO | leadgen.playwright_collect | Engines: bing, duckduckgo, yahoo | 1 query/queries | up to 10 new domains per engine per query | total cap 32 | SERP pages: bing=1, duckduckgo=1, yahoo=1
+2026-04-13 09:51:06,605 | INFO | leadgen.playwright_collect | === Query 1/1: 'motor rewinding services USA' ===
+2026-04-13 09:51:06,605 | INFO | leadgen.playwright_collect | --- BING (target +10 domains; max 1 SERP page(s); total cap 32) ---
+2026-04-13 09:51:10,320 | INFO | leadgen.playwright_collect | --- BING done: +0 domains (session total 0) ---
+2026-04-13 09:51:12,722 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +10 domains; max 1 SERP page(s); total cap 32) ---
+2026-04-13 09:51:15,941 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +9 domains (session total 9) ---
+2026-04-13 09:51:17,618 | INFO | leadgen.playwright_collect | --- YAHOO (target +10 domains; max 1 SERP page(s); total cap 32) ---
+2026-04-13 09:51:20,000 | INFO | leadgen.playwright_collect | --- YAHOO done: +0 domains (session total 9) ---
+2026-04-13 09:51:22,304 | INFO | leadgen.playwright_collect | Saved 1 new domains to D:\emial AI\email_scraper_project\domains.txt (unique this run: 9; per-engine cap was 10)

@@ -1,338 +1,203 @@
-import requests
-from bs4 import BeautifulSoup
-from urllib.parse import urlparse, parse_qs, unquote
-import time
+"""
+Collect business domains from multiple search engines (DuckDuckGo, Bing, Yahoo, Startpage).
+
+CLI or programmatic API for keyword + country driven queries, with optional free proxies,
+retries, pagination, and structured logging.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import logging
 import random
-
-# ---------------------------
-# CONFIG
-# ---------------------------
-
-SERVICES = [
-
-    # HR
-    "recruitment agency",
-    "staffing company",
-    "HR consulting firm",
-    "talent acquisition company",
-]
-
-STATES = [
-
-  
-    # Extra UK Regions (better coverage)
-    "England UK",
-    "Scotland UK",
-    "Wales UK",
-    "Northern Ireland UK",
-
-]
-PAGES = [0]
-DELAY_RANGE = (4, 8)
-
-BLOCKED = [
-    "youtube", "facebook", "linkedin", "instagram", "twitter",
-    "yelp",
-]
-
-BAD_DOMAINS = [
-    # job boards
-    "indeed.com",
-    "nijobs.com",
-    "reed.co.uk",
-    "glassdoor.com",
-    "monster.com",
-
-    # directories / listings
-    "yelp.com",
-    "yellowpages.com",
-    "thomasnet.com",
-    "angi.com",
-    "mapquest.com",
-    "clutch.co",
-    "industryselect.com",
-
-    # content / blog sites
-    "builtin.com",
-    "forbes.com",
-    "medium.com",
-
-    # marketplaces
-    "f6s.com",
-]
-
-USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
-    "Mozilla/5.0 (X11; Linux x86_64)"
-]
-
-# ---------------------------
-# SESSION
-# ---------------------------
-session = requests.Session()
-
-# ---------------------------
-# HELPERS
-# ---------------------------
-
-def get_headers():
-    return {
-        "User-Agent": random.choice(USER_AGENTS),
-        "Accept-Language": "en-US,en;q=0.9"
-    }
-
-
-def generate_queries():
-    return [f"{s} {state}" for s in SERVICES for state in STATES]
-
-
-
-def clean_domain(url):
-    try:
-        parsed = urlparse(url)
-
-        if not parsed.scheme or not parsed.netloc:
-            return None
-
-        domain = parsed.netloc.lower().replace("www.", "")
-
-        # ❌ STRICT search engine filter (ONLY exact domains)
-        SEARCH_ENGINES = [
-            "google.com",
-            "bing.com",
-            "duckduckgo.com",
-            "search.yahoo.com",
-            "yahoo.com",
-            "startpage.com"
-        ]
-
-        if any(domain.endswith(se) for se in SEARCH_ENGINES):
-            return None
-
-        # ❌ Social / junk
-        if any(x in domain for x in [
-            "youtube", "facebook", "linkedin", "instagram", "twitter"
-        ]):
-            return None
-
-        # ❌ Bad directories
-        if any(bad in domain for bad in BAD_DOMAINS):
-            return None
-
-        # ❌ junk links
-        if "aclick" in url or "y.js" in url:
-            return None
-
-        return domain
-
-    except:
-        return None
-
-
-# ---------------------------
-# DUCKDUCKGO
-# ---------------------------
-
-def fetch_duckduckgo(query, start):
-    url = "https://duckduckgo.com/html/"
-
-    params = {
-        "q": query,
-        "s": str(start)
-    }
-
-    try:
-        r = session.get(url, params=params, headers=get_headers(), timeout=15)
-        soup = BeautifulSoup(r.text, "html.parser")
-
-        links = []
-
-        for a in soup.select("a.result__a"):
-            href = a.get("href")
-
-            if href and "uddg=" in href and "y.js" not in href:
-                real_url = parse_qs(urlparse(href).query).get("uddg", [])
-                if real_url:
-                    real_url = unquote(real_url[0])
-                    links.append(real_url)
-
-        return links
-
-    except Exception as e:
-        print("DDG error:", e)
-        return []
-
-
-# ---------------------------
-# YAHOO (FIXED)
-# ---------------------------
-
-def fetch_yahoo(query):
-    url = "https://search.yahoo.com/search"
-
-    params = {
-        "p": query
-    }
-
-    links = []
-
-    try:
-        r = session.get(url, params=params, headers=get_headers(), timeout=15)
-        soup = BeautifulSoup(r.text, "html.parser")
-
-        results = soup.select("h3.title a")
-
-        for a in results:
-            href = a.get("href")
-
-            if href and href.startswith("http"):
-                links.append(href)
-
-        print(f"Yahoo found {len(links)} links")
-
-    except Exception as e:
-        print("Yahoo error:", e)
-
-    return links
-#bing
-def fetch_bing(query):
-    url = "https://www.bing.com/search"
-
-    params = {
-        "q": query
-    }
-
-    links = []
-
-    try:
-        r = session.get(url, params=params, headers=get_headers(), timeout=15)
-        soup = BeautifulSoup(r.text, "html.parser")
-
-        for a in soup.select("li.b_algo h2 a"):
-            href = a.get("href")
-            if href:
-                links.append(href)
-
-        print(f"Bing found {len(links)} links")
-
-    except Exception as e:
-        print("Bing error:", e)
-
-    return links
-
-#startpage
-def fetch_startpage(query):
-    url = "https://www.startpage.com/sp/search"
-
-    params = {
-        "query": query
-    }
-
-    links = []
-
-    try:
-        r = session.get(url, params=params, headers=get_headers(), timeout=15)
-        soup = BeautifulSoup(r.text, "html.parser")
-
-        for a in soup.select("a.w-gl__result-title"):
-            href = a.get("href")
-            if href:
-                links.append(href)
-
-        print(f"Startpage found {len(links)} links")
-
-    except Exception as e:
-        print("Startpage error:", e)
-
-    return links
-# ---------------------------
-# MAIN
-# ---------------------------
-
-def main():
-    queries = generate_queries()
-    all_domains = set()
-
-    try:
-        with open("domains.txt", "r") as f:
+import time
+from pathlib import Path
+from typing import Callable, Optional
+
+from email_scraper_project.config import domains_path, logs_dir
+from email_scraper_project.domain_cleaner import clean_domain
+from email_scraper_project.logging_config import log_event, setup_logging
+from email_scraper_project.proxy_manager import ProxyManager
+from email_scraper_project.search_engine import SearchClient
+from email_scraper_project.search_engine.client import build_search_queries
+
+LogFn = Optional[Callable[[str], None]]
+
+
+def _console_log(logger: logging.Logger, log_fn: LogFn, message: str) -> None:
+    logger.info(message)
+    if log_fn:
+        log_fn(message)
+
+
+def run_domain_collection(
+    keywords: str,
+    country: str,
+    state: str = "",
+    city: str = "",
+    industry: str = "",
+    max_pages_per_engine: int = 3,
+    engines_order: tuple[str, ...] | None = None,
+    use_free_proxies: bool = False,
+    output_path: Optional[Path] = None,
+    json_export: Optional[Path] = None,
+    append: bool = True,
+    log_callback: LogFn = None,
+    delay_range: tuple[float, float] = (2.0, 6.0),
+) -> dict[str, int]:
+    """
+    Run multi-engine search for all generated queries; write unique domains to domains.txt.
+
+    Returns stats: queries_run, domains_new, domains_total, engines_used.
+    """
+    json_log = logs_dir() / "domain_collection.jsonl"
+    logger = setup_logging("leadgen.collect", logging.INFO, json_file=str(json_log))
+
+    out = Path(output_path) if output_path else domains_path()
+    out.parent.mkdir(parents=True, exist_ok=True)
+
+    all_domains: set[str] = set()
+    if append and out.exists():
+        with open(out, "r", encoding="utf-8", errors="ignore") as f:
             for line in f:
-                d = line.strip().replace("http://", "")
-                if d:
-                    all_domains.add(d)
-        print(f"📂 Loaded existing: {len(all_domains)}")
-    except FileNotFoundError:
-        print("📂 Starting fresh")
-
-    print("Total queries:", len(queries))
-
-    for q in queries:
-        print(f"\n🔍 {q}")
-
-        new_domains = set()
-
-    # DDG
-        for start in PAGES:
-            links = fetch_duckduckgo(q, start)
-
-            print(f"DDG links: {len(links)}")
-            print(links[:3])
-
-            for link in links:
-                if "duckduckgo.com" in link or "aclick" in link:
+                line = line.strip()
+                if not line or line.startswith("#"):
                     continue
+                u = line.replace("http://", "").replace("https://", "").split("/")[0]
+                if u:
+                    all_domains.add(u.lower())
 
-                d = clean_domain(link)
+    queries = build_search_queries(keywords, country, state, city, industry)
+    if not queries:
+        queries = [f"business in {country or 'USA'}"]
+
+    engines_order = engines_order or SearchClient.ENGINES
+    proxy_mgr: Optional[ProxyManager] = ProxyManager() if use_free_proxies else None
+    json_out = Path(json_export) if json_export else None
+
+    new_total = 0
+    first_file_write = True
+    for qi, q in enumerate(queries):
+        _console_log(logger, log_callback, f"Query {qi + 1}/{len(queries)}: {q}")
+        log_event(logger, "query_start", query=q, index=qi + 1, total=len(queries))
+
+        proxies_dict = None
+        p = None
+        if proxy_mgr:
+            p = proxy_mgr.pick()
+            proxies_dict = proxy_mgr.requests_proxies_dict(p)
+
+        client = SearchClient(delay_range=delay_range, proxies_dict=proxies_dict)
+        try:
+            per_engine = client.search_with_failover(
+                q, max_pages_per_engine=max_pages_per_engine, engines_order=engines_order
+            )
+        except Exception as e:
+            log_event(logger, "query_failed", query=q, error=str(e))
+            if proxy_mgr and p:
+                proxy_mgr.mark_bad(p)
+            _console_log(logger, log_callback, f"Query failed (will continue): {e}")
+            time.sleep(random.uniform(*delay_range))
+            continue
+
+        batch: set[str] = set()
+        for eng, found in per_engine.items():
+            for link_host in found:
+                d = clean_domain(f"https://{link_host}") or link_host
                 if d and d not in all_domains:
-                    new_domains.add(d)
+                    batch.add(d)
+            log_event(
+                logger,
+                "engine_result",
+                query=q,
+                engine=eng,
+                domains=len(found),
+            )
 
-            time.sleep(random.uniform(*DELAY_RANGE))
-
-    # YAHOO 
-        time.sleep(random.uniform(2, 4))
-        links = fetch_yahoo(q)
-
-        for link in links:
-            d = clean_domain(link)
-            if d and d not in all_domains:
-                new_domains.add(d)
-
-        # BING
-        time.sleep(random.uniform(2, 4))
-        links = fetch_bing(q)
-
-        for link in links:
-            d = clean_domain(link)
-            if d and d not in all_domains:
-                new_domains.add(d)
-
-        # STARTPAGE
-        time.sleep(random.uniform(2, 4))
-        # links = fetch_startpage(q)
-
-        for link in links:
-            d = clean_domain(link)
-            if d and d not in all_domains:
-                new_domains.add(d)
-
-
-        # SAVE
-        if new_domains:
-            with open("domains.txt", "a") as f:
-                for d in new_domains:
+        if batch:
+            if append:
+                file_mode = "a"
+            else:
+                file_mode = "w" if first_file_write else "a"
+            first_file_write = False
+            with open(out, file_mode, encoding="utf-8") as f:
+                for d in sorted(batch):
                     f.write(f"http://{d}\n")
+            all_domains.update(batch)
+            new_total += len(batch)
+            log_event(
+                logger,
+                "domains_saved",
+                query=q,
+                new=len(batch),
+                cumulative=len(all_domains),
+            )
+            _console_log(
+                logger,
+                log_callback,
+                f"+{len(batch)} domains | total unique: {len(all_domains)}",
+            )
 
-            all_domains.update(new_domains)
-            print(f"➕ Added {len(new_domains)} | Total: {len(all_domains)}")
+        if json_out:
+            json_out.parent.mkdir(parents=True, exist_ok=True)
+            snap = {
+                "query": q,
+                "per_engine": {k: len(v) for k, v in per_engine.items()},
+                "new_batch": len(batch),
+            }
+            with open(json_out, "a", encoding="utf-8") as jf:
+                jf.write(json.dumps(snap, ensure_ascii=False) + "\n")
 
-        time.sleep(random.uniform(*DELAY_RANGE))
+        time.sleep(random.uniform(*delay_range))
 
-    print("\n✅ DONE:", len(all_domains))
+    stats = {
+        "queries_run": len(queries),
+        "domains_new": new_total,
+        "domains_total": len(all_domains),
+        "engines_configured": len(engines_order),
+    }
+    log_event(logger, "collection_done", **stats)
+    _console_log(logger, log_callback, f"DONE {stats}")
+    logger.info("Wrote domains to %s", out)
+    return stats
 
 
-# ---------------------------
-# RUN
-# ---------------------------
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Collect domains from search engines")
+    parser.add_argument("--keywords", default="dentist,lawyer", help="Comma-separated")
+    parser.add_argument("--country", default="USA")
+    parser.add_argument("--state", default="")
+    parser.add_argument("--city", default="")
+    parser.add_argument("--industry", default="")
+    parser.add_argument("--pages", type=int, default=3, help="Max pages per engine per query")
+    parser.add_argument("--no-append", action="store_true", help="Do not merge existing domains.txt")
+    parser.add_argument("--proxies", action="store_true", help="Use free HTTP proxies (unreliable)")
+    parser.add_argument(
+        "--output",
+        type=str,
+        default="",
+        help="domains.txt path (default: project root domains.txt)",
+    )
+    parser.add_argument("--json-log", type=str, default="", help="Append JSON lines summary per query")
+    args = parser.parse_args()
+
+    out = Path(args.output) if args.output else None
+    jpath = Path(args.json_log) if args.json_log else None
+
+    run_domain_collection(
+        keywords=args.keywords,
+        country=args.country,
+        state=args.state,
+        city=args.city,
+        industry=args.industry,
+        max_pages_per_engine=args.pages,
+        use_free_proxies=args.proxies,
+        output_path=out,
+        json_export=jpath,
+        append=not args.no_append,
+    )
+
 
 if __name__ == "__main__":
     main()

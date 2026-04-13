@@ -18,13 +18,18 @@ ADDONS = {}
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "email_scraper_project (+http://www.yourdomain.com)"
 
-# Obey robots.txt rules
+# Obey robots.txt rules (email spider overrides via custom_settings)
 ROBOTSTXT_OBEY = True
 
-# Concurrency and throttling settings
-#CONCURRENT_REQUESTS = 16
-CONCURRENT_REQUESTS_PER_DOMAIN = 1
-DOWNLOAD_DELAY = 1
+# Concurrency and throttling (email spider raises these safely)
+CONCURRENT_REQUESTS = 8
+CONCURRENT_REQUESTS_PER_DOMAIN = 2
+DOWNLOAD_DELAY = 0.75
+
+# Set True to truncate emails.csv at crawl start (e.g. scrapy crawl -s EMAIL_FEED_OVERWRITE=True)
+EMAIL_FEED_OVERWRITE = False
+
+LOG_FORMAT = "%(asctime)s [%(name)s] %(levelname)s: %(message)s"
 
 # Disable cookies (enabled by default)
 #COOKIES_ENABLED = False
