@@ -1,0 +1,138 @@
+Build a production-ready email lead generation system using Python.
+
+IMPORTANT:
+Do not use simple HTTP scraping for search engines. Use browser automation.
+
+Tech Stack:
+- Playwright (Python) for browser automation
+- Requests + BeautifulSoup for crawling
+- Regex for email extraction
+- urllib + base64 for URL decoding
+
+----------------------------------------
+
+FEATURES:
+
+1. INPUT SYSTEM
+- Accept:
+  - keyword (e.g., "motor rewinding services")
+  - country (e.g., "USA")
+  - number of results (e.g., 50–200)
+
+----------------------------------------
+
+2. SEARCH ENGINE SCRAPER (DOMAIN COLLECTOR)
+
+- Use Playwright with Chromium
+- Open real browser (non-headless)
+- Search in:
+  - Bing (primary)
+  - Yahoo (secondary)
+  - Google (optional, manual CAPTCHA allowed)
+
+- Extract:
+  - Result URLs
+  - Convert to clean domains
+
+----------------------------------------
+
+IMPORTANT: BING URL DECODING (CRITICAL)
+
+- Bing results often return redirect/encoded URLs instead of direct links
+- Example:
+  https://www.bing.com/aclick?ld=xxx&u=aHR0cHM6Ly9leGFtcGxlLmNvbQ==
+
+- You MUST:
+  1. Extract the "u" parameter from the URL
+  2. Decode it using base64 decoding
+  3. Convert it into the real destination URL
+  4. Extract the domain from the decoded URL
+
+- If decoding fails:
+  - Fallback to opening the link in browser and get final redirected URL
+
+----------------------------------------
+
+- Save clean domains to:
+  domains.txt
+
+- Add:
+  - Random delays (2–5 sec)
+  - Scroll simulation
+  - Click pagination
+
+----------------------------------------
+
+3. CAPTCHA HANDLING
+
+- If CAPTCHA appears:
+  - Pause execution
+  - Wait for manual solve
+  - Resume automatically
+
+----------------------------------------
+
+4. DOMAIN CRAWLER (EMAIL EXTRACTOR)
+
+For each domain:
+- Try:
+  - homepage
+  - /contact
+  - /about
+
+- Extract emails using:
+  - mailto:
+  - regex pattern
+
+- If blocked:
+  - fallback to Playwright
+
+- Save to:
+  emails.txt
+
+----------------------------------------
+
+5. ANTI-BOT HANDLING
+
+- Rotate user agents
+- Add delays
+- Retry failed domains
+- Timeout handling
+
+----------------------------------------
+
+6. OUTPUT
+
+- domains.txt
+- emails.txt
+- logs.txt
+
+----------------------------------------
+
+7. BONUS (if possible)
+- Multi-thread crawling (for email extraction only)
+- Deduplicate emails
+- Basic email validation (regex)
+
+----------------------------------------
+
+IMPORTANT RULES:
+- Do NOT use unofficial Google scraping APIs
+- Do NOT rely on duckduckgo HTML scraping
+- Always prefer browser automation for search engines
+- Code must be modular and clean
+
+
+
+
+🔥 Extra (So You Understand What’s Happening)
+
+Bing uses:
+
+Redirect tracking
+Encoded URLs
+Anti-scraping layers
+
+So your logic becomes:
+
+Bing URL → extract u= → base64 decode → real URL → domain
