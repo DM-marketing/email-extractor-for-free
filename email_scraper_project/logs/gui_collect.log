@@ -1,0 +1,31 @@
+2026-04-13 04:56:28,259 | INFO | leadgen.collect | Query 1/4: Motor Winding in USA
+2026-04-13 04:56:28,259 | INFO | leadgen.collect | query_start
+engine yahoo failed for 'Motor Winding in USA': 500 Server Error: INKApi Error for url: https://search.yahoo.com/search?p=Motor+Winding+in+USA&b=1
+2026-04-13 04:57:02,981 | INFO | leadgen.collect | engine_result
+2026-04-13 04:57:02,981 | INFO | leadgen.collect | engine_result
+2026-04-13 04:57:02,981 | INFO | leadgen.collect | engine_result
+2026-04-13 04:57:02,982 | INFO | leadgen.collect | engine_result
+2026-04-13 04:57:07,116 | INFO | leadgen.collect | Query 2/4: Motor Winding near USA
+2026-04-13 04:57:07,116 | INFO | leadgen.collect | query_start
+engine yahoo failed for 'Motor Winding near USA': 500 Server Error: INKApi Error for url: https://search.yahoo.com/search?p=Motor+Winding+near+USA&b=1
+2026-04-13 04:57:50,814 | INFO | leadgen.collect | engine_result
+2026-04-13 04:57:50,815 | INFO | leadgen.collect | engine_result
+2026-04-13 04:57:50,815 | INFO | leadgen.collect | engine_result
+2026-04-13 04:57:50,815 | INFO | leadgen.collect | engine_result
+2026-04-13 04:57:55,436 | INFO | leadgen.collect | Query 3/4: Motor Winding USA
+2026-04-13 04:57:55,436 | INFO | leadgen.collect | query_start
+engine yahoo failed for 'Motor Winding USA': 500 Server Error: INKApi Error for url: https://search.yahoo.com/search?p=Motor+Winding+USA&b=1
+2026-04-13 04:58:33,348 | INFO | leadgen.collect | engine_result
+2026-04-13 04:58:33,348 | INFO | leadgen.collect | engine_result
+2026-04-13 04:58:33,348 | INFO | leadgen.collect | engine_result
+2026-04-13 04:58:33,349 | INFO | leadgen.collect | engine_result
+2026-04-13 04:58:37,669 | INFO | leadgen.collect | Query 4/4: USA Motor Winding
+2026-04-13 04:58:37,669 | INFO | leadgen.collect | query_start
+engine yahoo failed for 'USA Motor Winding': 500 Server Error: INKApi Error for url: https://search.yahoo.com/search?p=USA+Motor+Winding&b=1
+2026-04-13 04:59:23,296 | INFO | leadgen.collect | engine_result
+2026-04-13 04:59:23,296 | INFO | leadgen.collect | engine_result
+2026-04-13 04:59:23,297 | INFO | leadgen.collect | engine_result
+2026-04-13 04:59:23,297 | INFO | leadgen.collect | engine_result
+2026-04-13 04:59:26,864 | INFO | leadgen.collect | collection_done
+2026-04-13 04:59:26,864 | INFO | leadgen.collect | DONE {'queries_run': 4, 'domains_new': 0, 'domains_total': 43, 'engines_configured': 4}
+2026-04-13 04:59:26,865 | INFO | leadgen.collect | Wrote domains to D:\emial AI\email_scraper_project\domains.txt

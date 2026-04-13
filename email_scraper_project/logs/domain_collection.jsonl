@@ -1,0 +1,168 @@
+{"ts": "2026-04-13T09:44:13.536001+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 1/4: Motor Rewinding in USA"}
+{"ts": "2026-04-13T09:44:13.536321+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Motor Rewinding in USA", "index": 1, "total": 4}}
+{"ts": "2026-04-13T09:49:34.027048+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding in USA", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T09:49:34.027208+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding in USA", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T09:49:34.027528+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding in USA", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T09:49:34.027595+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding in USA", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T09:49:36.861184+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 2/4: Motor Rewinding near USA"}
+{"ts": "2026-04-13T09:49:36.861284+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Motor Rewinding near USA", "index": 2, "total": 4}}
+{"ts": "2026-04-13T09:51:47.323981+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding near USA", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T09:51:47.324154+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding near USA", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T09:51:47.324251+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding near USA", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T09:51:47.325126+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding near USA", "engine": "startpage", "domains": 22}}
+{"ts": "2026-04-13T09:51:47.326073+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "domains_saved", "data": {"query": "Motor Rewinding near USA", "new": 22, "cumulative": 22}}
+{"ts": "2026-04-13T09:51:47.326306+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "+22 domains | total unique: 22"}
+{"ts": "2026-04-13T09:51:52.674081+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 3/4: Motor Rewinding USA"}
+{"ts": "2026-04-13T09:51:52.674795+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Motor Rewinding USA", "index": 3, "total": 4}}
+{"ts": "2026-04-13T09:56:32.354135+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding USA", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T09:56:32.354553+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding USA", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T09:56:32.354782+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding USA", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T09:56:32.354981+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding USA", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T09:56:36.791887+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 4/4: USA Motor Rewinding"}
+{"ts": "2026-04-13T09:56:36.792213+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "USA Motor Rewinding", "index": 4, "total": 4}}
+{"ts": "2026-04-13T10:00:58.581916+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Motor Rewinding", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:00:58.582395+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Motor Rewinding", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:00:58.582589+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Motor Rewinding", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:00:58.582753+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Motor Rewinding", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:01:00.946750+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "collection_done", "data": {"queries_run": 4, "domains_new": 22, "domains_total": 22, "engines_configured": 4}}
+{"ts": "2026-04-13T10:01:00.947068+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "DONE {'queries_run': 4, 'domains_new': 22, 'domains_total': 22, 'engines_configured': 4}"}
+{"ts": "2026-04-13T10:01:00.947492+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Wrote domains to D:\\emial AI\\email_scraper_project\\domains.txt"}
+{"ts": "2026-04-13T10:08:25.543543+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 1/4: Motor Rewinding in USA"}
+{"ts": "2026-04-13T10:08:25.543736+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Motor Rewinding in USA", "index": 1, "total": 4}}
+{"ts": "2026-04-13T10:09:05.139810+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 1/4: Motor Rewinding in USA"}
+{"ts": "2026-04-13T10:09:05.139978+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Motor Rewinding in USA", "index": 1, "total": 4}}
+{"ts": "2026-04-13T10:10:20.959602+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding in USA", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:10:20.959909+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding in USA", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:10:20.960093+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding in USA", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:10:20.960254+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding in USA", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:10:26.234806+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 2/4: Motor Rewinding near USA"}
+{"ts": "2026-04-13T10:10:26.235033+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Motor Rewinding near USA", "index": 2, "total": 4}}
+{"ts": "2026-04-13T10:11:42.985662+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding near USA", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:11:42.985811+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding near USA", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:11:42.985890+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding near USA", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:11:42.985963+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding near USA", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:11:47.746849+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 3/4: Motor Rewinding USA"}
+{"ts": "2026-04-13T10:11:47.746951+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Motor Rewinding USA", "index": 3, "total": 4}}
+{"ts": "2026-04-13T10:16:24.533212+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 1/12: Motor Rewinding in USA"}
+{"ts": "2026-04-13T10:16:24.533393+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Motor Rewinding in USA", "index": 1, "total": 12}}
+{"ts": "2026-04-13T10:17:04.472606+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding in USA", "engine": "duckduckgo", "domains": 9}}
+{"ts": "2026-04-13T10:17:04.472754+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding in USA", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:17:04.473057+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding in USA", "engine": "yahoo", "domains": 7}}
+{"ts": "2026-04-13T10:17:04.473136+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding in USA", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:17:04.476741+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "domains_saved", "data": {"query": "Motor Rewinding in USA", "new": 8, "cumulative": 30}}
+{"ts": "2026-04-13T10:17:04.476908+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "+8 domains | total unique: 30"}
+{"ts": "2026-04-13T10:17:08.208746+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 2/12: Motor Rewinding near USA"}
+{"ts": "2026-04-13T10:17:08.208945+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Motor Rewinding near USA", "index": 2, "total": 12}}
+{"ts": "2026-04-13T10:17:08.461413+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding USA", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:17:08.461576+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding USA", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:17:08.461658+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding USA", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:17:08.461728+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding USA", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:17:11.676878+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 4/4: USA Motor Rewinding"}
+{"ts": "2026-04-13T10:17:11.676972+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "USA Motor Rewinding", "index": 4, "total": 4}}
+{"ts": "2026-04-13T10:17:52.436411+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding near USA", "engine": "duckduckgo", "domains": 9}}
+{"ts": "2026-04-13T10:17:52.436565+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding near USA", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:17:52.436647+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding near USA", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:17:52.436719+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding near USA", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:17:52.437243+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "domains_saved", "data": {"query": "Motor Rewinding near USA", "new": 3, "cumulative": 33}}
+{"ts": "2026-04-13T10:17:52.437344+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "+3 domains | total unique: 33"}
+{"ts": "2026-04-13T10:17:57.801918+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 3/12: Motor Rewinding USA"}
+{"ts": "2026-04-13T10:17:57.802164+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Motor Rewinding USA", "index": 3, "total": 12}}
+{"ts": "2026-04-13T10:18:39.729011+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding USA", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:18:39.729287+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding USA", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:18:39.729437+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding USA", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:18:39.729566+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Rewinding USA", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:18:44.906764+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 4/12: USA Motor Rewinding"}
+{"ts": "2026-04-13T10:18:44.906913+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "USA Motor Rewinding", "index": 4, "total": 12}}
+{"ts": "2026-04-13T10:19:25.960328+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Motor Rewinding", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:19:25.960424+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Motor Rewinding", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:19:25.960474+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Motor Rewinding", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:19:25.960516+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Motor Rewinding", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:19:31.033062+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 5/12: Pump Repair in USA"}
+{"ts": "2026-04-13T10:19:31.033284+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Pump Repair in USA", "index": 5, "total": 12}}
+{"ts": "2026-04-13T10:20:11.095252+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Pump Repair in USA", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:20:11.095355+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Pump Repair in USA", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:20:11.095399+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Pump Repair in USA", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:20:11.095439+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Pump Repair in USA", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:20:15.924916+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 6/12: Pump Repair near USA"}
+{"ts": "2026-04-13T10:20:15.925009+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Pump Repair near USA", "index": 6, "total": 12}}
+{"ts": "2026-04-13T10:20:46.328368+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Pump Repair near USA", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:20:46.328712+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Pump Repair near USA", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:20:46.329903+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Pump Repair near USA", "engine": "yahoo", "domains": 11}}
+{"ts": "2026-04-13T10:20:46.330292+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Pump Repair near USA", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:20:46.331264+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "domains_saved", "data": {"query": "Pump Repair near USA", "new": 10, "cumulative": 43}}
+{"ts": "2026-04-13T10:20:46.331383+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "+10 domains | total unique: 43"}
+{"ts": "2026-04-13T10:20:50.880131+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 7/12: Pump Repair USA"}
+{"ts": "2026-04-13T10:20:50.880284+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Pump Repair USA", "index": 7, "total": 12}}
+{"ts": "2026-04-13T10:21:30.111309+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Pump Repair USA", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:21:30.111429+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Pump Repair USA", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:21:30.111473+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Pump Repair USA", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:21:30.111530+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Pump Repair USA", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:21:33.912647+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 8/12: USA Pump Repair"}
+{"ts": "2026-04-13T10:21:33.912861+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "USA Pump Repair", "index": 8, "total": 12}}
+{"ts": "2026-04-13T10:22:03.419332+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Motor Rewinding", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:22:03.419454+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Motor Rewinding", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:22:03.419504+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Motor Rewinding", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:22:03.419555+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Motor Rewinding", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:22:08.916765+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "collection_done", "data": {"queries_run": 4, "domains_new": 0, "domains_total": 22, "engines_configured": 4}}
+{"ts": "2026-04-13T10:22:08.916905+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "DONE {'queries_run': 4, 'domains_new': 0, 'domains_total': 22, 'engines_configured': 4}"}
+{"ts": "2026-04-13T10:22:08.917130+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Wrote domains to D:\\emial AI\\email_scraper_project\\domains.txt"}
+{"ts": "2026-04-13T10:22:13.794995+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Pump Repair", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:22:13.795114+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Pump Repair", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:22:13.795196+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Pump Repair", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:22:13.795252+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Pump Repair", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:22:18.707603+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 9/12: Sarvo Motor repair in USA"}
+{"ts": "2026-04-13T10:22:18.707704+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Sarvo Motor repair in USA", "index": 9, "total": 12}}
+{"ts": "2026-04-13T10:22:55.450846+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Sarvo Motor repair in USA", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:22:55.451069+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Sarvo Motor repair in USA", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:22:55.451171+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Sarvo Motor repair in USA", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:22:55.451256+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Sarvo Motor repair in USA", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:23:00.910844+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 10/12: Sarvo Motor repair near USA"}
+{"ts": "2026-04-13T10:23:00.910939+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Sarvo Motor repair near USA", "index": 10, "total": 12}}
+{"ts": "2026-04-13T10:23:41.490833+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Sarvo Motor repair near USA", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:23:41.490949+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Sarvo Motor repair near USA", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:23:41.490998+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Sarvo Motor repair near USA", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:23:41.491046+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Sarvo Motor repair near USA", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:23:47.087319+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 11/12: Sarvo Motor repair USA"}
+{"ts": "2026-04-13T10:23:47.087603+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Sarvo Motor repair USA", "index": 11, "total": 12}}
+{"ts": "2026-04-13T10:24:28.249571+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Sarvo Motor repair USA", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:24:28.249800+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Sarvo Motor repair USA", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:24:28.249927+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Sarvo Motor repair USA", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:24:28.250043+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Sarvo Motor repair USA", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:24:31.159564+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 12/12: USA Sarvo Motor repair"}
+{"ts": "2026-04-13T10:24:31.159651+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "USA Sarvo Motor repair", "index": 12, "total": 12}}
+{"ts": "2026-04-13T10:25:13.456456+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Sarvo Motor repair", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:25:13.456616+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Sarvo Motor repair", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:25:13.456700+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Sarvo Motor repair", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:25:13.456881+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Sarvo Motor repair", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:25:17.028897+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "collection_done", "data": {"queries_run": 12, "domains_new": 21, "domains_total": 43, "engines_configured": 4}}
+{"ts": "2026-04-13T10:25:17.028993+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "DONE {'queries_run': 12, 'domains_new': 21, 'domains_total': 43, 'engines_configured': 4}"}
+{"ts": "2026-04-13T10:25:17.029103+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Wrote domains to D:\\emial AI\\email_scraper_project\\domains.txt"}
+{"ts": "2026-04-13T10:54:38.706253+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 1/4: Motor Winding in USA"}
+{"ts": "2026-04-13T10:54:38.706810+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Motor Winding in USA", "index": 1, "total": 4}}
+{"ts": "2026-04-13T10:56:28.259265+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 1/4: Motor Winding in USA"}
+{"ts": "2026-04-13T10:56:28.259436+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Motor Winding in USA", "index": 1, "total": 4}}
+{"ts": "2026-04-13T10:57:02.981610+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Winding in USA", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:57:02.981868+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Winding in USA", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:57:02.982015+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Winding in USA", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:57:02.982145+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Winding in USA", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:57:07.116800+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 2/4: Motor Winding near USA"}
+{"ts": "2026-04-13T10:57:07.117028+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Motor Winding near USA", "index": 2, "total": 4}}
+{"ts": "2026-04-13T10:57:50.814924+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Winding near USA", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:57:50.815149+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Winding near USA", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:57:50.815282+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Winding near USA", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:57:50.815402+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Winding near USA", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:57:55.436330+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 3/4: Motor Winding USA"}
+{"ts": "2026-04-13T10:57:55.436427+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "Motor Winding USA", "index": 3, "total": 4}}
+{"ts": "2026-04-13T10:58:33.348466+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Winding USA", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:58:33.348699+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Winding USA", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:58:33.348986+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Winding USA", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:58:33.349130+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "Motor Winding USA", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:58:37.669727+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Query 4/4: USA Motor Winding"}
+{"ts": "2026-04-13T10:58:37.669927+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "query_start", "data": {"query": "USA Motor Winding", "index": 4, "total": 4}}
+{"ts": "2026-04-13T10:59:23.296786+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Motor Winding", "engine": "duckduckgo", "domains": 0}}
+{"ts": "2026-04-13T10:59:23.297004+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Motor Winding", "engine": "bing", "domains": 0}}
+{"ts": "2026-04-13T10:59:23.297138+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Motor Winding", "engine": "yahoo", "domains": 0}}
+{"ts": "2026-04-13T10:59:23.297253+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "engine_result", "data": {"query": "USA Motor Winding", "engine": "startpage", "domains": 0}}
+{"ts": "2026-04-13T10:59:26.864791+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "collection_done", "data": {"queries_run": 4, "domains_new": 0, "domains_total": 43, "engines_configured": 4}}
+{"ts": "2026-04-13T10:59:26.865032+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "DONE {'queries_run': 4, 'domains_new': 0, 'domains_total': 43, 'engines_configured': 4}"}
+{"ts": "2026-04-13T10:59:26.865301+00:00", "level": "INFO", "logger": "leadgen.collect", "message": "Wrote domains to D:\\emial AI\\email_scraper_project\\domains.txt"}

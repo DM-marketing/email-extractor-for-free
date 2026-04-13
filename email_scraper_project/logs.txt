@@ -1,0 +1,61 @@
+2026-04-13 04:52:21,157 | INFO | leadgen.playwright_collect | Bing search…
+2026-04-13 05:04:38,588 | INFO | leadgen.playwright_collect | Bing search…
+2026-04-13 05:07:42,875 | INFO | leadgen.playwright_collect | Yahoo search…
+2026-04-13 05:09:23,973 | INFO | leadgen.playwright_collect | Saved 80 new domains → D:\emial AI\email_scraper_project\domains.txt (total unique session: 80)
+2026-04-13 05:10:48,011 | INFO | leadgen.email_txt | Crawling 80 domains (workers=6)
+2026-04-13 05:10:58,079 | INFO | leadgen.email_txt | almullaengineering.com: +1 raw hits (deduped globally)
+2026-04-13 05:10:59,628 | INFO | leadgen.email_txt | alkilanyrewinds.com: +1 raw hits (deduped globally)
+2026-04-13 05:11:05,715 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: auxsysinc.com
+2026-04-13 05:11:07,276 | INFO | leadgen.email_txt | amed-us.com: +1 raw hits (deduped globally)
+2026-04-13 05:11:07,849 | INFO | leadgen.email_txt | ampumpdrilling.com: +1 raw hits (deduped globally)
+2026-04-13 05:11:12,629 | INFO | leadgen.email_txt | clearwaterelecmotorepair.com: +1 raw hits (deduped globally)
+2026-04-13 05:11:13,057 | INFO | leadgen.email_txt | centerelectric.com: +2 raw hits (deduped globally)
+2026-04-13 05:11:14,599 | INFO | leadgen.email_txt | cemindustrialsupply.com: +1 raw hits (deduped globally)
+2026-04-13 05:11:14,879 | INFO | leadgen.email_txt | bsheavyindustries.com: +1 raw hits (deduped globally)
+2026-04-13 05:11:14,892 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: cmtcompanies.com
+2026-04-13 05:11:22,212 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: dannyselectricmotors.com
+2026-04-13 05:11:22,950 | INFO | leadgen.email_txt | communitymotorsinc.net: +1 raw hits (deduped globally)
+2026-04-13 05:11:27,759 | INFO | leadgen.email_txt | continental-electric.com: +2 raw hits (deduped globally)
+2026-04-13 05:11:28,842 | INFO | leadgen.email_txt | dmhie.com: +1 raw hits (deduped globally)
+2026-04-13 05:11:29,969 | INFO | leadgen.email_txt | dreisilker.com: +1 raw hits (deduped globally)
+2026-04-13 05:11:32,087 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: electricmotorshop.com
+2026-04-13 05:11:35,723 | INFO | leadgen.email_txt | easa.com: +3 raw hits (deduped globally)
+2026-04-13 05:11:37,675 | INFO | leadgen.email_txt | eurtonelectric.com: +1 raw hits (deduped globally)
+2026-04-13 05:11:41,802 | INFO | leadgen.email_txt | emc-co.com: +2 raw hits (deduped globally)
+2026-04-13 05:11:42,859 | INFO | leadgen.email_txt | eximeng.com: +2 raw hits (deduped globally)
+2026-04-13 05:11:43,464 | INFO | leadgen.email_txt | gcemsinc.com: +1 raw hits (deduped globally)
+2026-04-13 05:11:44,095 | INFO | leadgen.email_txt | gevernova.com: +4 raw hits (deduped globally)
+2026-04-13 05:11:45,516 | INFO | leadgen.email_txt | gesrepair.com: +1 raw hits (deduped globally)
+2026-04-13 05:11:47,428 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: hpelectricmotor.com
+2026-04-13 05:11:50,811 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: hornerindustrial.com
+2026-04-13 05:11:53,030 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: k-and-s.com
+2026-04-13 05:11:54,891 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: kjpowerhouse.com
+2026-04-13 05:11:54,992 | INFO | leadgen.email_txt | houghton-international.com: +1 raw hits (deduped globally)
+2026-04-13 05:11:56,334 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: langeelectric.com
+2026-04-13 05:11:57,754 | INFO | leadgen.email_txt | coleelectricms.com: +1 raw hits (deduped globally)
+2026-04-13 05:12:00,260 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: magnetech.com
+2026-04-13 05:12:00,346 | INFO | leadgen.email_txt | knelectric.com: +1 raw hits (deduped globally)
+2026-04-13 05:12:00,772 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: magnetoelectric.com
+2026-04-13 05:12:01,934 | INFO | leadgen.email_txt | lselectric.com: +1 raw hits (deduped globally)
+2026-04-13 05:12:05,564 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: mirepairandservices.com
+2026-04-13 05:12:05,644 | INFO | leadgen.email_txt | koffler.com: +8 raw hits (deduped globally)
+2026-04-13 05:12:06,453 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: motorsandcontrol.com
+2026-04-13 05:12:08,429 | INFO | leadgen.email_txt | njelectricmotor.com: +1 raw hits (deduped globally)
+2026-04-13 05:12:12,534 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: pemscentral.com
+2026-04-13 05:12:12,711 | INFO | leadgen.email_txt | mziprecision.com: +3 raw hits (deduped globally)
+2026-04-13 09:03:56,609 | INFO | leadgen.email_txt | Crawling 80 domains (workers=6)
+2026-04-13 09:04:05,245 | INFO | leadgen.playwright_collect | Engines: bing, duckduckgo, yahoo, google | 1 query/queries | up to 35 new domains per engine per query | total cap 80
+2026-04-13 09:04:06,922 | INFO | leadgen.playwright_collect | === Query 1/1: 'motor rewinding services USA' ===
+2026-04-13 09:04:06,922 | INFO | leadgen.playwright_collect | --- BING (target +35 from this engine; total cap 80) ---
+2026-04-13 09:04:32,391 | INFO | leadgen.playwright_collect | Engines: bing, duckduckgo, yahoo, google | 1 query/queries | up to 35 new domains per engine per query | total cap 80
+2026-04-13 09:04:33,433 | INFO | leadgen.playwright_collect | === Query 1/1: 'motor rewinding services USA' ===
+2026-04-13 09:04:33,433 | INFO | leadgen.playwright_collect | --- BING (target +35 from this engine; total cap 80) ---
+2026-04-13 09:27:18,267 | INFO | leadgen.playwright_collect | Engines: bing, duckduckgo, yahoo | 1 query/queries | up to 10 new domains per engine per query | total cap 80 | SERP pages: bing=1, duckduckgo=1, yahoo=1
+2026-04-13 09:27:20,429 | INFO | leadgen.playwright_collect | === Query 1/1: 'motor rewinding services USA' ===
+2026-04-13 09:27:20,430 | INFO | leadgen.playwright_collect | --- BING (target +10 domains; max 1 SERP page(s); total cap 80) ---
+2026-04-13 09:27:23,969 | INFO | leadgen.playwright_collect | --- BING done: +0 domains (session total 0) ---
+2026-04-13 09:27:25,670 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +10 domains; max 1 SERP page(s); total cap 80) ---
+2026-04-13 09:27:29,205 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +9 domains (session total 9) ---
+2026-04-13 09:27:31,627 | INFO | leadgen.playwright_collect | --- YAHOO (target +10 domains; max 1 SERP page(s); total cap 80) ---
+2026-04-13 09:27:34,621 | INFO | leadgen.playwright_collect | --- YAHOO done: +0 domains (session total 9) ---
+2026-04-13 09:27:36,378 | INFO | leadgen.playwright_collect | Saved 0 new domains to D:\emial AI\email_scraper_project\domains.txt (unique this run: 9; per-engine cap was 10)
