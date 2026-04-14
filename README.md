@@ -1,5 +1,5 @@
 # Automated Lead Generation System (Scrapy + Playwright)
-## free email extractor from sreach engine like (google, Bings, yahoo and DDG (DuckDuckGo)), 100% free
+## free email extractor from search engine like (google, Bings, yahoo and DDG (DuckDuckGo)), 100% free
 
 A modular, free, end-to-end lead generation project that:
 
