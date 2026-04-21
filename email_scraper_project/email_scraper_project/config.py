@@ -37,6 +37,22 @@ def leads_json_path() -> Path:
     return data_dir() / "leads.json"
 
 
+def qualified_leads_csv_path() -> Path:
+    return data_dir() / "qualified_leads.csv"
+
+
+def outreach_ready_csv_path() -> Path:
+    return data_dir() / "outreach_ready.csv"
+
+
+def manual_leads_csv_path() -> Path:
+    return data_dir() / "manual_leads.csv"
+
+
+def manual_qualified_leads_csv_path() -> Path:
+    return data_dir() / "manual_qualified_leads.csv"
+
+
 def logs_dir() -> Path:
     d = data_dir() / "logs"
     d.mkdir(parents=True, exist_ok=True)

@@ -17,6 +17,7 @@ from typing import Callable, Optional
 
 from email_scraper_project.config import domains_path, logs_dir
 from email_scraper_project.domain_cleaner import clean_domain
+from email_scraper_project.lead_qualifier import should_drop_collected_host
 from email_scraper_project.logging_config import log_event, setup_logging
 from email_scraper_project.proxy_manager import ProxyManager
 from email_scraper_project.search_engine import SearchClient
@@ -45,6 +46,7 @@ def run_domain_collection(
     append: bool = True,
     log_callback: LogFn = None,
     delay_range: tuple[float, float] = (2.0, 6.0),
+    b2b_queries: bool = False,
 ) -> dict[str, int]:
     """
     Run multi-engine search for all generated queries; write unique domains to domains.txt.
@@ -68,7 +70,9 @@ def run_domain_collection(
                 if u:
                     all_domains.add(u.lower())
 
-    queries = build_search_queries(keywords, country, state, city, industry)
+    queries = build_search_queries(
+        keywords, country, state, city, industry, b2b_enrich=b2b_queries
+    )
     if not queries:
         queries = [f"business in {country or 'USA'}"]
 
@@ -105,7 +109,7 @@ def run_domain_collection(
         for eng, found in per_engine.items():
             for link_host in found:
                 d = clean_domain(f"https://{link_host}") or link_host
-                if d and d not in all_domains:
+                if d and not should_drop_collected_host(d) and d not in all_domains:
                     batch.add(d)
             log_event(
                 logger,
@@ -174,6 +178,11 @@ def main() -> None:
     parser.add_argument("--no-append", action="store_true", help="Do not merge existing domains.txt")
     parser.add_argument("--proxies", action="store_true", help="Use free HTTP proxies (unreliable)")
     parser.add_argument(
+        "--b2b-queries",
+        action="store_true",
+        help="Add B2B-style queries (e.g. 'keyword company Texas USA')",
+    )
+    parser.add_argument(
         "--output",
         type=str,
         default="",
@@ -196,6 +205,7 @@ def main() -> None:
         output_path=out,
         json_export=jpath,
         append=not args.no_append,
+        b2b_queries=args.b2b_queries,
     )
 
 

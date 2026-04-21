@@ -1,61 +1,1277 @@
-2026-04-13 04:52:21,157 | INFO | leadgen.playwright_collect | Bing search…
-2026-04-13 05:04:38,588 | INFO | leadgen.playwright_collect | Bing search…
-2026-04-13 05:07:42,875 | INFO | leadgen.playwright_collect | Yahoo search…
-2026-04-13 05:09:23,973 | INFO | leadgen.playwright_collect | Saved 80 new domains → D:\emial AI\email_scraper_project\domains.txt (total unique session: 80)
-2026-04-13 05:10:48,011 | INFO | leadgen.email_txt | Crawling 80 domains (workers=6)
-2026-04-13 05:10:58,079 | INFO | leadgen.email_txt | almullaengineering.com: +1 raw hits (deduped globally)
-2026-04-13 05:10:59,628 | INFO | leadgen.email_txt | alkilanyrewinds.com: +1 raw hits (deduped globally)
-2026-04-13 05:11:05,715 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: auxsysinc.com
-2026-04-13 05:11:07,276 | INFO | leadgen.email_txt | amed-us.com: +1 raw hits (deduped globally)
-2026-04-13 05:11:07,849 | INFO | leadgen.email_txt | ampumpdrilling.com: +1 raw hits (deduped globally)
-2026-04-13 05:11:12,629 | INFO | leadgen.email_txt | clearwaterelecmotorepair.com: +1 raw hits (deduped globally)
-2026-04-13 05:11:13,057 | INFO | leadgen.email_txt | centerelectric.com: +2 raw hits (deduped globally)
-2026-04-13 05:11:14,599 | INFO | leadgen.email_txt | cemindustrialsupply.com: +1 raw hits (deduped globally)
-2026-04-13 05:11:14,879 | INFO | leadgen.email_txt | bsheavyindustries.com: +1 raw hits (deduped globally)
-2026-04-13 05:11:14,892 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: cmtcompanies.com
-2026-04-13 05:11:22,212 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: dannyselectricmotors.com
-2026-04-13 05:11:22,950 | INFO | leadgen.email_txt | communitymotorsinc.net: +1 raw hits (deduped globally)
-2026-04-13 05:11:27,759 | INFO | leadgen.email_txt | continental-electric.com: +2 raw hits (deduped globally)
-2026-04-13 05:11:28,842 | INFO | leadgen.email_txt | dmhie.com: +1 raw hits (deduped globally)
-2026-04-13 05:11:29,969 | INFO | leadgen.email_txt | dreisilker.com: +1 raw hits (deduped globally)
-2026-04-13 05:11:32,087 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: electricmotorshop.com
-2026-04-13 05:11:35,723 | INFO | leadgen.email_txt | easa.com: +3 raw hits (deduped globally)
-2026-04-13 05:11:37,675 | INFO | leadgen.email_txt | eurtonelectric.com: +1 raw hits (deduped globally)
-2026-04-13 05:11:41,802 | INFO | leadgen.email_txt | emc-co.com: +2 raw hits (deduped globally)
-2026-04-13 05:11:42,859 | INFO | leadgen.email_txt | eximeng.com: +2 raw hits (deduped globally)
-2026-04-13 05:11:43,464 | INFO | leadgen.email_txt | gcemsinc.com: +1 raw hits (deduped globally)
-2026-04-13 05:11:44,095 | INFO | leadgen.email_txt | gevernova.com: +4 raw hits (deduped globally)
-2026-04-13 05:11:45,516 | INFO | leadgen.email_txt | gesrepair.com: +1 raw hits (deduped globally)
-2026-04-13 05:11:47,428 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: hpelectricmotor.com
-2026-04-13 05:11:50,811 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: hornerindustrial.com
-2026-04-13 05:11:53,030 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: k-and-s.com
-2026-04-13 05:11:54,891 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: kjpowerhouse.com
-2026-04-13 05:11:54,992 | INFO | leadgen.email_txt | houghton-international.com: +1 raw hits (deduped globally)
-2026-04-13 05:11:56,334 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: langeelectric.com
-2026-04-13 05:11:57,754 | INFO | leadgen.email_txt | coleelectricms.com: +1 raw hits (deduped globally)
-2026-04-13 05:12:00,260 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: magnetech.com
-2026-04-13 05:12:00,346 | INFO | leadgen.email_txt | knelectric.com: +1 raw hits (deduped globally)
-2026-04-13 05:12:00,772 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: magnetoelectric.com
-2026-04-13 05:12:01,934 | INFO | leadgen.email_txt | lselectric.com: +1 raw hits (deduped globally)
-2026-04-13 05:12:05,564 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: mirepairandservices.com
-2026-04-13 05:12:05,644 | INFO | leadgen.email_txt | koffler.com: +8 raw hits (deduped globally)
-2026-04-13 05:12:06,453 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: motorsandcontrol.com
-2026-04-13 05:12:08,429 | INFO | leadgen.email_txt | njelectricmotor.com: +1 raw hits (deduped globally)
-2026-04-13 05:12:12,534 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: pemscentral.com
-2026-04-13 05:12:12,711 | INFO | leadgen.email_txt | mziprecision.com: +3 raw hits (deduped globally)
-2026-04-13 09:03:56,609 | INFO | leadgen.email_txt | Crawling 80 domains (workers=6)
-2026-04-13 09:04:05,245 | INFO | leadgen.playwright_collect | Engines: bing, duckduckgo, yahoo, google | 1 query/queries | up to 35 new domains per engine per query | total cap 80
-2026-04-13 09:04:06,922 | INFO | leadgen.playwright_collect | === Query 1/1: 'motor rewinding services USA' ===
-2026-04-13 09:04:06,922 | INFO | leadgen.playwright_collect | --- BING (target +35 from this engine; total cap 80) ---
-2026-04-13 09:04:32,391 | INFO | leadgen.playwright_collect | Engines: bing, duckduckgo, yahoo, google | 1 query/queries | up to 35 new domains per engine per query | total cap 80
-2026-04-13 09:04:33,433 | INFO | leadgen.playwright_collect | === Query 1/1: 'motor rewinding services USA' ===
-2026-04-13 09:04:33,433 | INFO | leadgen.playwright_collect | --- BING (target +35 from this engine; total cap 80) ---
-2026-04-13 09:27:18,267 | INFO | leadgen.playwright_collect | Engines: bing, duckduckgo, yahoo | 1 query/queries | up to 10 new domains per engine per query | total cap 80 | SERP pages: bing=1, duckduckgo=1, yahoo=1
-2026-04-13 09:27:20,429 | INFO | leadgen.playwright_collect | === Query 1/1: 'motor rewinding services USA' ===
-2026-04-13 09:27:20,430 | INFO | leadgen.playwright_collect | --- BING (target +10 domains; max 1 SERP page(s); total cap 80) ---
-2026-04-13 09:27:23,969 | INFO | leadgen.playwright_collect | --- BING done: +0 domains (session total 0) ---
-2026-04-13 09:27:25,670 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +10 domains; max 1 SERP page(s); total cap 80) ---
-2026-04-13 09:27:29,205 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +9 domains (session total 9) ---
-2026-04-13 09:27:31,627 | INFO | leadgen.playwright_collect | --- YAHOO (target +10 domains; max 1 SERP page(s); total cap 80) ---
-2026-04-13 09:27:34,621 | INFO | leadgen.playwright_collect | --- YAHOO done: +0 domains (session total 9) ---
-2026-04-13 09:27:36,378 | INFO | leadgen.playwright_collect | Saved 0 new domains to D:\emial AI\email_scraper_project\domains.txt (unique this run: 9; per-engine cap was 10)
+2026-04-17 07:45:11,598 | INFO | leadgen.playwright_collect | Engines: bing, duckduckgo, yahoo | 36 query/queries | up to 50 new domains per engine per query | total cap 500 | SERP pages: bing=6, duckduckgo=6, yahoo=6
+2026-04-17 07:45:12,745 | INFO | leadgen.playwright_collect | Chromium launcher: chrome
+2026-04-17 07:45:12,941 | INFO | leadgen.playwright_collect | === Query 1/36: 'Simming Pool Repair Services in USA' ===
+2026-04-17 07:45:12,941 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:45:52,844 | INFO | leadgen.playwright_collect | --- BING done: +29 domains (session total 29) ---
+2026-04-17 07:45:53,917 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:46:01,640 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +1 domains (session total 30) ---
+2026-04-17 07:46:03,643 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:46:51,637 | INFO | leadgen.playwright_collect | --- YAHOO done: +19 domains (session total 49) ---
+2026-04-17 07:46:54,024 | INFO | leadgen.playwright_collect | === Query 2/36: 'Simming Pool Repair Services in Canada' ===
+2026-04-17 07:46:54,025 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:47:44,642 | INFO | leadgen.playwright_collect | --- BING done: +41 domains (session total 90) ---
+2026-04-17 07:47:46,557 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:47:53,999 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +2 domains (session total 92) ---
+2026-04-17 07:47:56,125 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:48:47,942 | INFO | leadgen.playwright_collect | --- YAHOO done: +7 domains (session total 99) ---
+2026-04-17 07:48:50,034 | INFO | leadgen.playwright_collect | === Query 3/36: 'construction company USA USA' ===
+2026-04-17 07:48:50,035 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:49:42,970 | INFO | leadgen.playwright_collect | --- BING done: +40 domains (session total 139) ---
+2026-04-17 07:49:45,384 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:49:52,801 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +1 domains (session total 140) ---
+2026-04-17 07:49:54,056 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:50:40,528 | INFO | leadgen.playwright_collect | --- YAHOO done: +24 domains (session total 164) ---
+2026-04-17 07:50:42,602 | INFO | leadgen.playwright_collect | === Query 4/36: 'construction company USA Canada' ===
+2026-04-17 07:50:42,603 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:51:31,691 | INFO | leadgen.playwright_collect | --- BING done: +17 domains (session total 181) ---
+2026-04-17 07:51:32,884 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:51:40,573 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +3 domains (session total 184) ---
+2026-04-17 07:51:42,432 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:52:31,517 | INFO | leadgen.playwright_collect | --- YAHOO done: +24 domains (session total 208) ---
+2026-04-17 07:52:32,981 | INFO | leadgen.playwright_collect | === Query 5/36: 'general contractor company USA' ===
+2026-04-17 07:52:32,981 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:53:23,446 | INFO | leadgen.playwright_collect | --- BING done: +15 domains (session total 223) ---
+2026-04-17 07:53:24,868 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:53:32,043 | WARNING | leadgen.playwright_collect | DuckDuckGo JS SERP returned no links; trying HTML fallback.
+2026-04-17 07:53:41,922 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +1 domains (session total 224) ---
+2026-04-17 07:53:42,995 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:54:34,347 | INFO | leadgen.playwright_collect | --- YAHOO done: +14 domains (session total 238) ---
+2026-04-17 07:54:36,278 | INFO | leadgen.playwright_collect | === Query 6/36: 'general contractor company Canada' ===
+2026-04-17 07:54:36,279 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:55:26,316 | INFO | leadgen.playwright_collect | --- BING done: +29 domains (session total 267) ---
+2026-04-17 07:55:28,383 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:55:34,717 | WARNING | leadgen.playwright_collect | DuckDuckGo JS SERP returned no links; trying HTML fallback.
+2026-04-17 07:55:39,483 | WARNING | leadgen.playwright_collect | DuckDuckGo HTML: no harvestable links for query='general contractor company Canada'
+2026-04-17 07:55:39,484 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +0 domains (session total 267) ---
+2026-04-17 07:55:40,916 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:56:33,091 | INFO | leadgen.playwright_collect | --- YAHOO done: +4 domains (session total 271) ---
+2026-04-17 07:56:34,248 | INFO | leadgen.playwright_collect | === Query 7/36: 'electrical contractor company USA' ===
+2026-04-17 07:56:34,249 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:57:28,152 | INFO | leadgen.playwright_collect | --- BING done: +32 domains (session total 303) ---
+2026-04-17 07:57:30,432 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:57:37,995 | WARNING | leadgen.playwright_collect | DuckDuckGo JS SERP returned no links; trying HTML fallback.
+2026-04-17 07:57:42,059 | WARNING | leadgen.playwright_collect | DuckDuckGo HTML: no harvestable links for query='electrical contractor company USA'
+2026-04-17 07:57:42,059 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +0 domains (session total 303) ---
+2026-04-17 07:57:43,878 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:58:29,994 | INFO | leadgen.playwright_collect | --- YAHOO done: +19 domains (session total 322) ---
+2026-04-17 07:58:31,408 | INFO | leadgen.playwright_collect | === Query 8/36: 'electrical contractor company Canada' ===
+2026-04-17 07:58:31,408 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:59:24,269 | INFO | leadgen.playwright_collect | --- BING done: +48 domains (session total 370) ---
+2026-04-17 07:59:25,783 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 07:59:33,501 | WARNING | leadgen.playwright_collect | DuckDuckGo JS SERP returned no links; trying HTML fallback.
+2026-04-17 07:59:38,286 | WARNING | leadgen.playwright_collect | DuckDuckGo HTML: no harvestable links for query='electrical contractor company Canada'
+2026-04-17 07:59:38,287 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +0 domains (session total 370) ---
+2026-04-17 07:59:39,507 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 08:00:29,510 | INFO | leadgen.playwright_collect | --- YAHOO done: +4 domains (session total 374) ---
+2026-04-17 08:00:31,812 | INFO | leadgen.playwright_collect | === Query 9/36: 'hvac service company USA' ===
+2026-04-17 08:00:31,813 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 08:01:22,917 | INFO | leadgen.playwright_collect | --- BING done: +27 domains (session total 401) ---
+2026-04-17 08:01:25,383 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 08:01:33,342 | WARNING | leadgen.playwright_collect | DuckDuckGo JS SERP returned no links; trying HTML fallback.
+2026-04-17 08:01:37,416 | WARNING | leadgen.playwright_collect | DuckDuckGo HTML: no harvestable links for query='hvac service company USA'
+2026-04-17 08:01:37,417 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +0 domains (session total 401) ---
+2026-04-17 08:01:39,857 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 08:02:32,272 | INFO | leadgen.playwright_collect | --- YAHOO done: +21 domains (session total 422) ---
+2026-04-17 08:02:34,435 | INFO | leadgen.playwright_collect | === Query 10/36: 'hvac service company Canada' ===
+2026-04-17 08:02:34,436 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 08:03:27,154 | INFO | leadgen.playwright_collect | --- BING done: +32 domains (session total 454) ---
+2026-04-17 08:03:29,542 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 08:03:37,763 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +2 domains (session total 456) ---
+2026-04-17 08:03:40,057 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 08:04:31,149 | INFO | leadgen.playwright_collect | --- YAHOO done: +13 domains (session total 469) ---
+2026-04-17 08:04:32,212 | INFO | leadgen.playwright_collect | === Query 11/36: 'small manufacturing company USA' ===
+2026-04-17 08:04:32,212 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 6 SERP page(s); total cap 500) ---
+2026-04-17 08:05:21,879 | INFO | leadgen.playwright_collect | --- BING done: +31 domains (session total 500) ---
+2026-04-17 08:05:23,303 | INFO | leadgen.playwright_collect | Saved 500 new domains to D:\email_scraper\email_scraper_project\domains.txt (unique this run: 500; per-engine cap was 50)
+2026-04-17 08:06:05,603 | INFO | leadgen.email_txt | Crawling 500 domains (workers=6)
+2026-04-17 08:06:11,896 | INFO | leadgen.email_txt | 6wresearch.com: +1 raw hits (deduped globally)
+2026-04-17 08:06:13,024 | INFO | leadgen.email_txt | acs.us: +12 raw hits (deduped globally)
+2026-04-17 08:06:14,864 | INFO | leadgen.email_txt | actionelectrical.net: +2 raw hits (deduped globally)
+2026-04-17 08:06:16,371 | INFO | leadgen.email_txt | acecwi.com: +1 raw hits (deduped globally)
+2026-04-17 08:06:18,357 | INFO | leadgen.email_txt | acelectrical.ca: +1 raw hits (deduped globally)
+2026-04-17 08:06:18,883 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: adams-electric.com
+2026-04-17 08:06:24,184 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: agreatertown.com
+2026-04-17 08:06:24,687 | INFO | leadgen.email_txt | advocacy.sba.gov: +2 raw hits (deduped globally)
+2026-04-17 08:06:26,315 | INFO | leadgen.email_txt | agc.org: +4 raw hits (deduped globally)
+2026-04-17 08:06:26,419 | INFO | leadgen.email_txt | agcmichigan.org: +1 raw hits (deduped globally)
+2026-04-17 08:06:28,069 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: airbusus.com
+2026-04-17 08:06:28,154 | INFO | leadgen.email_txt | advancedhvac.ca: +1 raw hits (deduped globally)
+2026-04-17 08:06:29,134 | INFO | leadgen.email_txt | agc-ca.org: +1 raw hits (deduped globally)
+2026-04-17 08:06:31,770 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: airtron.com
+2026-04-17 08:06:32,450 | INFO | leadgen.email_txt | aireserv.com: +1 raw hits (deduped globally)
+2026-04-17 08:06:32,667 | INFO | leadgen.email_txt | aireserv.ca: +1 raw hits (deduped globally)
+2026-04-17 08:06:37,013 | INFO | leadgen.email_txt | airzonehvac.ca: +2 raw hits (deduped globally)
+2026-04-17 08:06:37,388 | INFO | leadgen.email_txt | airtasker.com: +1 raw hits (deduped globally)
+2026-04-17 08:06:39,009 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: allwestelectric.com
+2026-04-17 08:06:41,074 | INFO | leadgen.email_txt | allamericanclothing.com: +2 raw hits (deduped globally)
+2026-04-17 08:06:44,472 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: americanbuilders.ca
+2026-04-17 08:06:45,494 | INFO | leadgen.email_txt | amenitypool.com: +1 raw hits (deduped globally)
+2026-04-17 08:06:45,839 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: americanpool.com
+2026-04-17 08:06:47,643 | INFO | leadgen.email_txt | americanmanufacturing.org: +2 raw hits (deduped globally)
+2026-04-17 08:06:53,539 | INFO | leadgen.email_txt | amteck.com: +1 raw hits (deduped globally)
+2026-04-17 08:06:59,415 | INFO | leadgen.email_txt | amrize.com: +3 raw hits (deduped globally)
+2026-04-17 08:07:00,048 | INFO | leadgen.email_txt | aquacal.com: +2 raw hits (deduped globally)
+2026-04-17 08:07:02,251 | INFO | leadgen.email_txt | aquaviewpools.ca: +2 raw hits (deduped globally)
+2026-04-17 08:07:02,696 | INFO | leadgen.email_txt | aquaticms.com: +1 raw hits (deduped globally)
+2026-04-17 08:07:06,752 | INFO | leadgen.email_txt | aristair.com: +6 raw hits (deduped globally)
+2026-04-17 08:07:07,036 | INFO | leadgen.email_txt | arcoconstruction.com: +1 raw hits (deduped globally)
+2026-04-17 08:07:07,046 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: arizton.com
+2026-04-17 08:07:11,500 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: ars.com
+2026-04-17 08:07:19,309 | INFO | leadgen.email_txt | aquaworx.ca: +2 raw hits (deduped globally)
+2026-04-17 08:07:21,872 | INFO | leadgen.email_txt | armanch.ca: +1 raw hits (deduped globally)
+2026-04-17 08:07:23,443 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: b.jobcase.com
+2026-04-17 08:07:26,097 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: baker-electric.com
+2026-04-17 08:07:26,408 | INFO | leadgen.email_txt | azadtechhub.com: +1 raw hits (deduped globally)
+2026-04-17 08:07:31,375 | INFO | leadgen.email_txt | bcpools.ca: +1 raw hits (deduped globally)
+2026-04-17 08:07:34,579 | INFO | leadgen.email_txt | bdcnetwork.com: +13 raw hits (deduped globally)
+2026-04-17 08:07:36,916 | INFO | leadgen.email_txt | beemerpools.ca: +1 raw hits (deduped globally)
+2026-04-17 08:07:40,323 | INFO | leadgen.email_txt | belvanconstruction.com: +1 raw hits (deduped globally)
+2026-04-17 08:07:40,498 | INFO | leadgen.email_txt | autodesk.com: +2 raw hits (deduped globally)
+2026-04-17 08:07:41,921 | INFO | leadgen.email_txt | bertselectric.net: +1 raw hits (deduped globally)
+2026-04-17 08:07:45,130 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: bigrentz.com
+2026-04-17 08:07:47,665 | INFO | leadgen.email_txt | betterbuyer.com: +1 raw hits (deduped globally)
+2026-04-17 08:07:52,310 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: blog.prodatalabs.com
+2026-04-17 08:07:52,782 | INFO | leadgen.email_txt | blackridgeresearch.com: +3 raw hits (deduped globally)
+2026-04-17 08:07:56,451 | INFO | leadgen.email_txt | bluediamondpools.ca: +1 raw hits (deduped globally)
+2026-04-17 08:08:03,674 | INFO | leadgen.email_txt | bobvila.com: +4 raw hits (deduped globally)
+2026-04-17 08:08:05,437 | INFO | leadgen.email_txt | brookfieldresidential.com: +29 raw hits (deduped globally)
+2026-04-17 08:08:06,483 | INFO | leadgen.email_txt | bomag.com: +1 raw hits (deduped globally)
+2026-04-17 08:08:08,543 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: business-standard.com
+2026-04-17 08:08:14,351 | INFO | leadgen.email_txt | buildworkscanada.com: +1 raw hits (deduped globally)
+2026-04-17 08:08:17,803 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: canada-listing.com
+2026-04-17 08:08:19,118 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: canadacompanyregistry.com
+2026-04-17 08:08:19,762 | INFO | leadgen.email_txt | cadcr.com: +1 raw hits (deduped globally)
+2026-04-17 08:08:21,302 | INFO | leadgen.email_txt | canadahvac.com: +1 raw hits (deduped globally)
+2026-04-17 08:08:25,218 | INFO | leadgen.email_txt | canadianpoolservices.com: +1 raw hits (deduped globally)
+2026-04-17 08:08:29,063 | INFO | leadgen.email_txt | canadawestpools.ca: +6 raw hits (deduped globally)
+2026-04-17 08:08:30,928 | INFO | leadgen.email_txt | canadiangeneralcontractors.com: +1 raw hits (deduped globally)
+2026-04-17 08:08:38,120 | INFO | leadgen.email_txt | casaboampools.ca: +1 raw hits (deduped globally)
+2026-04-17 08:08:39,946 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: carrierenterprise.com
+2026-04-17 08:08:42,467 | INFO | leadgen.email_txt | cantecelectrical.com: +1 raw hits (deduped globally)
+2026-04-17 08:08:45,933 | INFO | leadgen.email_txt | canpools.com: +1 raw hits (deduped globally)
+2026-04-17 08:08:46,211 | INFO | leadgen.email_txt | ceca.org: +2 raw hits (deduped globally)
+2026-04-17 08:08:47,525 | INFO | leadgen.email_txt | canelectric.ca: +1 raw hits (deduped globally)
+2026-04-17 08:08:51,267 | INFO | leadgen.email_txt | cemindia.co.in: +10 raw hits (deduped globally)
+2026-04-17 08:08:55,661 | INFO | leadgen.email_txt | cience.com: +4 raw hits (deduped globally)
+2026-04-17 08:08:56,224 | INFO | leadgen.email_txt | ceoreviewmagazine.com: +1 raw hits (deduped globally)
+2026-04-17 08:08:59,862 | INFO | leadgen.email_txt | civilthings.com: +3 raw hits (deduped globally)
+2026-04-17 08:09:02,365 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: citiservi.com
+2026-04-17 08:09:02,948 | INFO | leadgen.email_txt | ciowomenmagazine.com: +1 raw hits (deduped globally)
+2026-04-17 08:09:07,165 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: clockshark.com
+2026-04-17 08:09:10,525 | INFO | leadgen.email_txt | cleanclearpoolservice.ca: +3 raw hits (deduped globally)
+2026-04-17 08:09:13,826 | INFO | leadgen.email_txt | cncele.com: +1 raw hits (deduped globally)
+2026-04-17 08:09:17,151 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: commerce.gov
+2026-04-17 08:09:22,281 | INFO | leadgen.email_txt | constructiondigital.com: +1 raw hits (deduped globally)
+2026-04-17 08:09:28,267 | INFO | leadgen.email_txt | constructionplacements.com: +1 raw hits (deduped globally)
+2026-04-17 08:09:30,005 | INFO | leadgen.email_txt | constructionkenya.com: +1 raw hits (deduped globally)
+2026-04-17 08:09:30,167 | INFO | leadgen.email_txt | constructiondive.com: +1 raw hits (deduped globally)
+2026-04-17 08:09:37,520 | INFO | leadgen.email_txt | constructionupskills.com: +3 raw hits (deduped globally)
+2026-04-17 08:09:42,602 | INFO | leadgen.email_txt | consumeraffairs.com: +3 raw hits (deduped globally)
+2026-04-17 08:09:43,649 | INFO | leadgen.email_txt | conwize.io: +1 raw hits (deduped globally)
+2026-04-17 08:09:46,076 | INFO | leadgen.email_txt | contractors.directory: +2 raw hits (deduped globally)
+2026-04-17 08:09:46,843 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: crb.ri.gov
+2026-04-17 08:09:49,985 | INFO | leadgen.email_txt | crunchbase.com: +1 raw hits (deduped globally)
+2026-04-17 08:09:58,979 | INFO | leadgen.email_txt | completepoolservicing.com: +1 raw hits (deduped globally)
+2026-04-17 08:10:00,665 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: constructionbriefing.com
+2026-04-17 08:10:04,809 | INFO | leadgen.email_txt | digitalmarketingdeal.com: +1 raw hits (deduped globally)
+2026-04-17 08:10:08,995 | INFO | leadgen.email_txt | dakotaelectric.com: +1 raw hits (deduped globally)
+2026-04-17 08:10:09,685 | INFO | leadgen.email_txt | delair.com: +5 raw hits (deduped globally)
+2026-04-17 08:10:13,075 | INFO | leadgen.email_txt | doctorpool.ca: +10 raw hits (deduped globally)
+2026-04-17 08:10:18,907 | INFO | leadgen.email_txt | easyleadz.com: +1 raw hits (deduped globally)
+2026-04-17 08:10:20,406 | INFO | leadgen.email_txt | dualtemp.com: +1 raw hits (deduped globally)
+2026-04-17 08:10:22,709 | INFO | leadgen.email_txt | eca.bc.ca: +6 raw hits (deduped globally)
+2026-04-17 08:10:24,081 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: eccosupply.ca
+2026-04-17 08:10:24,745 | INFO | leadgen.email_txt | dutco.com: +21 raw hits (deduped globally)
+2026-04-17 08:10:25,910 | INFO | leadgen.email_txt | ecaa.ab.ca: +1 raw hits (deduped globally)
+2026-04-17 08:10:28,799 | INFO | leadgen.email_txt | ecoelectriccanada.com: +3 raw hits (deduped globally)
+2026-04-17 08:10:28,854 | INFO | leadgen.email_txt | ecmweb.com: +14 raw hits (deduped globally)
+2026-04-17 08:10:36,091 | INFO | leadgen.email_txt | electricalelite.ca: +2 raw hits (deduped globally)
+2026-04-17 08:10:36,929 | INFO | leadgen.email_txt | electriccainc.com: +9 raw hits (deduped globally)
+2026-04-17 08:10:38,900 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: ensun.io
+2026-04-17 08:10:41,877 | INFO | leadgen.email_txt | endlesspools.com: +1 raw hits (deduped globally)
+2026-04-17 08:10:43,112 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: enr.com
+2026-04-17 08:10:43,260 | INFO | leadgen.email_txt | enfrasolutions.com: +1 raw hits (deduped globally)
+2026-04-17 08:10:48,169 | INFO | leadgen.email_txt | ecao.org: +4 raw hits (deduped globally)
+2026-04-17 08:10:49,951 | INFO | leadgen.email_txt | esasafe.com: +5 raw hits (deduped globally)
+2026-04-17 08:10:51,995 | INFO | leadgen.email_txt | esub.com: +1 raw hits (deduped globally)
+2026-04-17 08:10:52,794 | INFO | leadgen.email_txt | f6s.com: +1 raw hits (deduped globally)
+2026-04-17 08:10:55,958 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: fdcorp.com
+2026-04-17 08:10:58,458 | INFO | leadgen.email_txt | findingmfg.com: +2 raw hits (deduped globally)
+2026-04-17 08:11:00,760 | INFO | leadgen.email_txt | fliarbi.com: +1 raw hits (deduped globally)
+2026-04-17 08:11:01,261 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: ferguson.com
+2026-04-17 08:11:05,213 | INFO | leadgen.email_txt | fortune.com: +3 raw hits (deduped globally)
+2026-04-17 08:11:05,214 | INFO | leadgen.email_txt | fieldpiece.com: +4 raw hits (deduped globally)
+2026-04-17 08:11:05,305 | INFO | leadgen.email_txt | forbes.com: +9 raw hits (deduped globally)
+2026-04-17 08:11:11,176 | INFO | leadgen.email_txt | fortisbc.com: +1 raw hits (deduped globally)
+2026-04-17 08:11:12,464 | INFO | leadgen.email_txt | foxwoodelectric.ca: +1 raw hits (deduped globally)
+2026-04-17 08:11:13,315 | INFO | leadgen.email_txt | fujitsugeneral.com: +2 raw hits (deduped globally)
+2026-04-17 08:11:16,950 | INFO | leadgen.email_txt | furnaceprices.ca: +1 raw hits (deduped globally)
+2026-04-17 08:11:17,170 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: geco.com
+2026-04-17 08:11:19,383 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: gemaire.com
+2026-04-17 08:11:19,683 | INFO | leadgen.email_txt | galarson.com: +1 raw hits (deduped globally)
+2026-04-17 08:11:23,595 | INFO | leadgen.email_txt | gensteel.com: +1 raw hits (deduped globally)
+2026-04-17 08:11:25,066 | INFO | leadgen.email_txt | glencoelectric.ca: +2 raw hits (deduped globally)
+2026-04-17 08:11:25,923 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: gordiehoweinternationalbridge.com
+2026-04-17 08:11:32,738 | INFO | leadgen.email_txt | gordiethepoolguy.com: +7 raw hits (deduped globally)
+2026-04-17 08:11:35,438 | INFO | leadgen.email_txt | goodmanmfg.com: +1 raw hits (deduped globally)
+2026-04-17 08:11:38,453 | INFO | leadgen.email_txt | groundsguys.ca: +1 raw hits (deduped globally)
+2026-04-17 08:11:41,744 | INFO | leadgen.email_txt | gpainc.ca: +1 raw hits (deduped globally)
+2026-04-17 08:11:56,552 | INFO | leadgen.email_txt | hallelectrical.ca: +1 raw hits (deduped globally)
+2026-04-17 08:12:04,622 | INFO | leadgen.email_txt | gtageneralcontractors.com: +2 raw hits (deduped globally)
+2026-04-17 08:12:08,874 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: homeguide.com
+2026-04-17 08:12:12,266 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: homestars.com
+2026-04-17 08:12:20,623 | INFO | leadgen.email_txt | hookagency.com: +3 raw hits (deduped globally)
+2026-04-17 08:12:23,440 | INFO | leadgen.email_txt | hotwire-electric.com: +1 raw hits (deduped globally)
+2026-04-17 08:12:27,801 | INFO | leadgen.email_txt | houseura.com: +2 raw hits (deduped globally)
+2026-04-17 08:12:29,342 | INFO | leadgen.email_txt | houle.ca: +1 raw hits (deduped globally)
+2026-04-17 08:12:35,224 | INFO | leadgen.email_txt | housecallpro.com: +1 raw hits (deduped globally)
+2026-04-17 08:12:37,856 | INFO | leadgen.email_txt | hrai.ca: +3 raw hits (deduped globally)
+2026-04-17 08:12:42,433 | INFO | leadgen.email_txt | hpacmag.com: +1 raw hits (deduped globally)
+2026-04-17 08:12:44,966 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: hvacnearme.ca
+2026-04-17 08:12:46,671 | INFO | leadgen.email_txt | hvacdirectory.co: +1 raw hits (deduped globally)
+2026-04-17 08:12:48,714 | INFO | leadgen.email_txt | hvaccanadaltd.ca: +1 raw hits (deduped globally)
+2026-04-17 08:12:51,589 | INFO | leadgen.email_txt | hvacontario.ca: +1 raw hits (deduped globally)
+2026-04-17 08:13:00,138 | INFO | leadgen.email_txt | insidermonkey.com: +3 raw hits (deduped globally)
+2026-04-17 08:13:02,678 | INFO | leadgen.email_txt | industryweek.com: +13 raw hits (deduped globally)
+2026-04-17 08:13:07,162 | INFO | leadgen.email_txt | insurance.ca.gov: +1 raw hits (deduped globally)
+2026-04-17 08:13:11,929 | INFO | leadgen.email_txt | interstateair.com: +1 raw hits (deduped globally)
+2026-04-17 08:13:13,825 | INFO | leadgen.email_txt | internationalbrandequity.com: +2 raw hits (deduped globally)
+2026-04-17 08:13:14,379 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: guardianpools.com
+2026-04-17 08:13:17,641 | INFO | leadgen.email_txt | homedepot.ca: +1 raw hits (deduped globally)
+2026-04-17 08:13:19,026 | INFO | leadgen.email_txt | inventiva.co.in: +1 raw hits (deduped globally)
+2026-04-17 08:13:21,693 | INFO | leadgen.email_txt | ipsdb.com: +1 raw hits (deduped globally)
+2026-04-17 08:13:26,373 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: itnowtechnologies.com
+2026-04-17 08:13:28,590 | INFO | leadgen.email_txt | justswimpoolservices.com: +2 raw hits (deduped globally)
+2026-04-17 08:13:30,276 | INFO | leadgen.email_txt | jea.com: +1 raw hits (deduped globally)
+2026-04-17 08:13:35,209 | INFO | leadgen.email_txt | keeleyconstruction.com: +1 raw hits (deduped globally)
+2026-04-17 08:13:35,925 | INFO | leadgen.email_txt | katoelectrical.com: +2 raw hits (deduped globally)
+2026-04-17 08:13:36,998 | INFO | leadgen.email_txt | jrmcm.com: +4 raw hits (deduped globally)
+2026-04-17 08:13:41,282 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: labor.arkansas.gov
+2026-04-17 08:13:45,746 | INFO | leadgen.email_txt | lairdandson.com: +1 raw hits (deduped globally)
+2026-04-17 08:13:45,984 | INFO | leadgen.email_txt | laurin.ca: +1 raw hits (deduped globally)
+2026-04-17 08:13:46,914 | INFO | leadgen.email_txt | laytonconstruction.com: +2 raw hits (deduped globally)
+2026-04-17 08:13:49,917 | INFO | leadgen.email_txt | ledcor.com: +1 raw hits (deduped globally)
+2026-04-17 08:13:50,578 | INFO | leadgen.email_txt | leelinesourcing.com: +1 raw hits (deduped globally)
+2026-04-17 08:13:51,751 | INFO | leadgen.email_txt | lesliespool.com: +1 raw hits (deduped globally)
+2026-04-17 08:13:52,864 | INFO | leadgen.email_txt | lexandelectric.com: +3 raw hits (deduped globally)
+2026-04-17 08:13:55,424 | INFO | leadgen.email_txt | lntecc.com: +2 raw hits (deduped globally)
+2026-04-17 08:13:55,821 | INFO | leadgen.email_txt | linearroofing.com: +1 raw hits (deduped globally)
+2026-04-17 08:13:56,428 | INFO | leadgen.email_txt | linquip.com: +4 raw hits (deduped globally)
+2026-04-17 08:14:00,029 | INFO | leadgen.email_txt | lghomecomfort.ca: +3 raw hits (deduped globally)
+2026-04-17 08:14:05,250 | INFO | leadgen.email_txt | loenbro.com: +4 raw hits (deduped globally)
+2026-04-17 08:14:05,375 | INFO | leadgen.email_txt | looploc.com: +1 raw hits (deduped globally)
+2026-04-17 08:14:05,822 | INFO | leadgen.email_txt | makersrow.com: +2 raw hits (deduped globally)
+2026-04-17 08:14:06,871 | INFO | leadgen.email_txt | magil.com: +4 raw hits (deduped globally)
+2026-04-17 08:14:10,313 | INFO | leadgen.email_txt | manufacturingdigital.com: +1 raw hits (deduped globally)
+2026-04-17 08:14:12,485 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: master.ca
+2026-04-17 08:14:14,450 | INFO | leadgen.email_txt | mapscaping.com: +1 raw hits (deduped globally)
+2026-04-17 08:14:15,646 | INFO | leadgen.email_txt | mattamyhomes.com: +160 raw hits (deduped globally)
+2026-04-17 08:14:18,642 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: media.defense.gov
+2026-04-17 08:14:19,820 | INFO | leadgen.email_txt | masterpoolsguild.com: +12 raw hits (deduped globally)
+2026-04-17 08:14:24,243 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: mestek.com
+2026-04-17 08:14:25,150 | INFO | leadgen.email_txt | metrovanpoolrepair.com: +2 raw hits (deduped globally)
+2026-04-17 08:14:25,594 | INFO | leadgen.email_txt | metropoolservices.com: +10 raw hits (deduped globally)
+2026-04-17 08:14:31,123 | INFO | leadgen.email_txt | modernize.com: +1 raw hits (deduped globally)
+2026-04-17 08:14:37,194 | INFO | leadgen.email_txt | mordorintelligence.com: +6 raw hits (deduped globally)
+2026-04-17 08:14:40,401 | INFO | leadgen.email_txt | moneyinc.com: +2 raw hits (deduped globally)
+2026-04-17 08:14:41,892 | INFO | leadgen.email_txt | money.com: +6 raw hits (deduped globally)
+2026-04-17 08:14:46,977 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: msboc.us
+2026-04-17 08:14:49,128 | INFO | leadgen.email_txt | myfbm.com: +2 raw hits (deduped globally)
+2026-04-17 08:14:49,562 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: msme.gov.in
+2026-04-17 08:14:51,268 | INFO | leadgen.email_txt | myrgroup.com: +6 raw hits (deduped globally)
+2026-04-17 08:14:53,407 | INFO | leadgen.email_txt | nationalaircorporation.com: +2 raw hits (deduped globally)
+2026-04-17 08:14:54,326 | INFO | leadgen.email_txt | myavista.com: +2 raw hits (deduped globally)
+2026-04-17 08:14:56,907 | INFO | leadgen.email_txt | network.procore.com: +5 raw hits (deduped globally)
+2026-04-17 08:14:57,678 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: necanet.org
+2026-04-17 08:14:59,791 | INFO | leadgen.email_txt | nccer.org: +2 raw hits (deduped globally)
+2026-04-17 08:15:02,793 | INFO | leadgen.email_txt | newengineer.com: +1 raw hits (deduped globally)
+2026-04-17 08:15:06,291 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: nexstarnetwork.com
+2026-04-17 08:15:09,192 | INFO | leadgen.email_txt | ncbeec.org: +11 raw hits (deduped globally)
+2026-04-17 08:15:22,065 | INFO | leadgen.email_txt | ogca.ca: +1 raw hits (deduped globally)
+2026-04-17 08:15:29,766 | INFO | leadgen.email_txt | ontariopoolservice.ca: +1 raw hits (deduped globally)
+2026-04-17 08:15:29,950 | INFO | leadgen.email_txt | onelec.com: +2 raw hits (deduped globally)
+2026-04-17 08:15:36,237 | INFO | leadgen.email_txt | on-sitemag.com: +1 raw hits (deduped globally)
+2026-04-17 08:15:37,973 | INFO | leadgen.email_txt | ontime-electric.ca: +1 raw hits (deduped globally)
+2026-04-17 08:15:40,616 | INFO | leadgen.email_txt | ontariopoolservices.com: +1 raw hits (deduped globally)
+2026-04-17 08:15:41,879 | INFO | leadgen.email_txt | ottawageneralcontractors.com: +1 raw hits (deduped globally)
+2026-04-17 08:15:47,814 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: osha.gov
+2026-04-17 08:15:48,503 | INFO | leadgen.email_txt | ozzelectric.com: +3 raw hits (deduped globally)
+2026-04-17 08:15:51,072 | INFO | leadgen.email_txt | ottawavalleypools.ca: +1 raw hits (deduped globally)
+2026-04-17 08:16:05,779 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: money.usnews.com
+2026-04-17 08:16:10,012 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: paperadvance.com
+2026-04-17 08:16:13,633 | INFO | leadgen.email_txt | pcl.com: +4 raw hits (deduped globally)
+2026-04-17 08:16:21,893 | INFO | leadgen.email_txt | plan-group.com: +4 raw hits (deduped globally)
+2026-04-17 08:16:22,069 | INFO | leadgen.email_txt | phta.org: +1 raw hits (deduped globally)
+2026-04-17 08:16:24,397 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: poolcontractor.com
+2026-04-17 08:16:25,141 | INFO | leadgen.email_txt | piscinevo.ca: +2 raw hits (deduped globally)
+2026-04-17 08:16:27,734 | INFO | leadgen.email_txt | pondspoolspa.ca: +1 raw hits (deduped globally)
+2026-04-17 08:16:28,686 | INFO | leadgen.email_txt | poolkings.ca: +3 raw hits (deduped globally)
+2026-04-17 08:16:30,110 | INFO | leadgen.email_txt | pomerleau.ca: +3 raw hits (deduped globally)
+2026-04-17 08:16:30,764 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: poolrenovation.com
+2026-04-17 08:16:31,229 | INFO | leadgen.email_txt | poolcraft.ca: +1 raw hits (deduped globally)
+2026-04-17 08:16:33,626 | INFO | leadgen.email_txt | poolhopper.ca: +10 raw hits (deduped globally)
+2026-04-17 08:16:34,724 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: poolsupplyunlimited.com
+2026-04-17 08:16:37,135 | INFO | leadgen.email_txt | poolscouts.com: +1 raw hits (deduped globally)
+2026-04-17 08:16:38,131 | INFO | leadgen.email_txt | pooltechsusa.com: +1 raw hits (deduped globally)
+2026-04-17 08:16:40,232 | INFO | leadgen.email_txt | pooltitans.ca: +1 raw hits (deduped globally)
+2026-04-17 08:16:42,624 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: poolwarehouse.com
+2026-04-17 08:16:46,451 | INFO | leadgen.email_txt | poolusaorlando.com: +1 raw hits (deduped globally)
+2026-04-17 08:16:47,660 | INFO | leadgen.email_txt | practicalelectric.ca: +1 raw hits (deduped globally)
+2026-04-17 08:16:47,689 | INFO | leadgen.email_txt | poolzenia.com: +17 raw hits (deduped globally)
+2026-04-17 08:16:55,327 | INFO | leadgen.email_txt | presidentialpools.com: +1 raw hits (deduped globally)
+2026-04-17 08:16:55,596 | INFO | leadgen.email_txt | poseidonpool.ca: +1 raw hits (deduped globally)
+2026-04-17 08:16:57,204 | INFO | leadgen.email_txt | prophase.ca: +1 raw hits (deduped globally)
+2026-04-17 08:16:59,275 | INFO | leadgen.email_txt | printit4less.com: +1 raw hits (deduped globally)
+2026-04-17 08:17:02,626 | INFO | leadgen.email_txt | rankred.com: +1 raw hits (deduped globally)
+2026-04-17 08:17:03,228 | INFO | leadgen.email_txt | readsitenews.com: +3 raw hits (deduped globally)
+2026-04-17 08:17:04,615 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: refecto.ca
+2026-04-17 08:17:10,544 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: reuters.com
+2026-04-17 08:17:13,549 | INFO | leadgen.email_txt | rib-software.com: +10 raw hits (deduped globally)
+2026-04-17 08:17:16,626 | INFO | leadgen.email_txt | rualengg.com: +1 raw hits (deduped globally)
+2026-04-17 08:17:17,487 | INFO | leadgen.email_txt | rebim.io: +1 raw hits (deduped globally)
+2026-04-17 08:17:20,710 | INFO | leadgen.email_txt | samedaypros.com: +1 raw hits (deduped globally)
+2026-04-17 08:17:26,665 | INFO | leadgen.email_txt | russellco.com: +2 raw hits (deduped globally)
+2026-04-17 08:17:27,316 | INFO | leadgen.email_txt | ruud.com: +1 raw hits (deduped globally)
+2026-04-17 08:17:35,571 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: roadtechs.com
+2026-04-17 08:17:36,756 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: seattletimes.com
+2026-04-17 08:17:36,891 | INFO | leadgen.email_txt | sba.gov: +8 raw hits (deduped globally)
+2026-04-17 08:17:37,928 | INFO | leadgen.email_txt | samsunghvac.com: +1 raw hits (deduped globally)
+2026-04-17 08:17:42,273 | INFO | leadgen.email_txt | sekoconstruction.com: +3 raw hits (deduped globally)
+2026-04-17 08:17:44,442 | INFO | leadgen.email_txt | servapool.ca: +1 raw hits (deduped globally)
+2026-04-17 08:17:48,392 | INFO | leadgen.email_txt | serviceexperts.com: +1 raw hits (deduped globally)
+2026-04-17 08:17:49,038 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: simacanada.ca
+2026-04-17 08:17:53,868 | INFO | leadgen.email_txt | smilehvac.ca: +2 raw hits (deduped globally)
+2026-04-17 08:17:58,137 | INFO | leadgen.email_txt | siteline.com: +1 raw hits (deduped globally)
+2026-04-17 08:18:01,149 | INFO | leadgen.email_txt | splashteampools.com: +1 raw hits (deduped globally)
+2026-04-17 08:18:04,940 | INFO | leadgen.email_txt | speckusa.com: +1 raw hits (deduped globally)
+2026-04-17 08:18:05,688 | INFO | leadgen.email_txt | smallmanufacturers.org: +4 raw hits (deduped globally)
+2026-04-17 08:18:10,515 | INFO | leadgen.email_txt | statista.com: +4 raw hits (deduped globally)
+2026-04-17 08:18:11,339 | INFO | leadgen.email_txt | strikegroup.ca: +2 raw hits (deduped globally)
+2026-04-17 08:18:13,817 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: superiorhvacservice.ca
+2026-04-17 08:18:14,495 | INFO | leadgen.email_txt | summertimepools.ca: +1 raw hits (deduped globally)
+2026-04-17 08:18:15,188 | INFO | leadgen.email_txt | soldapools.com: +1 raw hits (deduped globally)
+2026-04-17 08:18:17,450 | INFO | leadgen.email_txt | tenderimpulse.com: +1 raw hits (deduped globally)
+2026-04-17 08:18:18,857 | INFO | leadgen.email_txt | sunstateequip.com: +7 raw hits (deduped globally)
+2026-04-17 08:18:22,366 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: themost10.com
+2026-04-17 08:18:25,387 | INFO | leadgen.email_txt | thecleverbusiness.com: +2 raw hits (deduped globally)
+2026-04-17 08:18:26,250 | INFO | leadgen.email_txt | thebestvancouver.com: +1 raw hits (deduped globally)
+2026-04-17 08:18:26,865 | INFO | leadgen.email_txt | thepoolfactory.com: +3 raw hits (deduped globally)
+2026-04-17 08:18:29,891 | INFO | leadgen.email_txt | thepoolpioneer.ca: +1 raw hits (deduped globally)
+2026-04-17 08:18:35,721 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: thumbtack.com
+2026-04-17 08:18:36,198 | INFO | leadgen.email_txt | threebestrated.ca: +3 raw hits (deduped globally)
+2026-04-17 08:18:37,829 | INFO | leadgen.email_txt | thetundradrums.com: +2 raw hits (deduped globally)
+2026-04-17 08:18:37,984 | INFO | leadgen.email_txt | thompsoncg.ca: +4 raw hits (deduped globally)
+2026-04-17 08:18:42,484 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: torontopoolservices.ca
+2026-04-17 08:18:43,381 | INFO | leadgen.email_txt | traviselectric.com: +1 raw hits (deduped globally)
+2026-04-17 08:18:47,509 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: trustedpros.ca
+2026-04-17 08:18:48,875 | INFO | leadgen.email_txt | todayshomeowner.com: +1 raw hits (deduped globally)
+2026-04-17 08:18:54,062 | INFO | leadgen.email_txt | uccholding.com: +1 raw hits (deduped globally)
+2026-04-17 08:18:57,523 | INFO | leadgen.email_txt | underthehardhat.org: +10 raw hits (deduped globally)
+2026-04-17 08:18:59,229 | INFO | leadgen.email_txt | turnerconstruction.com: +2 raw hits (deduped globally)
+2026-04-17 08:19:02,925 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: us.businessesforsale.com
+2026-04-17 08:19:07,427 | INFO | leadgen.email_txt | uniondevelopers.com: +1 raw hits (deduped globally)
+2026-04-17 08:19:09,454 | INFO | leadgen.email_txt | unicosystem.com: +1 raw hits (deduped globally)
+2026-04-17 08:19:17,730 | INFO | leadgen.email_txt | usaswimming.org: +16 raw hits (deduped globally)
+2026-04-17 08:19:18,104 | INFO | leadgen.email_txt | use-corp.com: +1 raw hits (deduped globally)
+2026-04-17 08:19:21,701 | INFO | leadgen.email_txt | uschamber.com: +4 raw hits (deduped globally)
+2026-04-17 08:19:22,386 | INFO | leadgen.email_txt | uselectriccontractors.com: +6 raw hits (deduped globally)
+2026-04-17 08:19:29,814 | INFO | leadgen.email_txt | vancouvergeneralcontractors.com: +1 raw hits (deduped globally)
+2026-04-17 08:19:31,439 | INFO | leadgen.email_txt | uspools.net: +1 raw hits (deduped globally)
+2026-04-17 08:19:32,870 | INFO | leadgen.email_txt | vippools.ca: +1 raw hits (deduped globally)
+2026-04-17 08:19:39,752 | INFO | leadgen.email_txt | walshgroup.com: +1 raw hits (deduped globally)
+2026-04-17 08:19:40,335 | INFO | leadgen.email_txt | walbridge.com: +1 raw hits (deduped globally)
+2026-04-17 08:19:43,279 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: westernelectrical.com
+2026-04-17 08:19:46,060 | INFO | leadgen.email_txt | whec.com: +1 raw hits (deduped globally)
+2026-04-17 08:19:50,288 | INFO | leadgen.email_txt | westernhvac.com: +7 raw hits (deduped globally)
+2026-04-17 08:19:50,721 | INFO | leadgen.email_txt | workindia.in: +3 raw hits (deduped globally)
+2026-04-17 08:19:52,737 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: yably.ca
+2026-04-17 08:19:56,452 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: zegaapparel.com
+2026-04-17 08:19:56,692 | INFO | leadgen.email_txt | wpe.ca: +6 raw hits (deduped globally)
+2026-04-17 08:19:57,627 | INFO | leadgen.email_txt | zencoreglobal.com: +1 raw hits (deduped globally)
+2026-04-17 08:20:00,267 | INFO | leadgen.email_txt | wrmeadows.com: +12 raw hits (deduped globally)
+2026-04-17 08:20:01,397 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: zoominfo.com
+2026-04-17 08:20:02,155 | INFO | leadgen.email_txt | zippia.com: +2 raw hits (deduped globally)
+2026-04-17 08:20:02,652 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: thetorocompany.com
+2026-04-17 08:20:02,653 | INFO | leadgen.email_txt | Playwright fallback: adams-electric.com
+2026-04-17 08:20:09,653 | INFO | leadgen.email_txt | Playwright fallback: agreatertown.com
+2026-04-17 08:20:17,431 | INFO | leadgen.email_txt | Playwright fallback: airbusus.com
+2026-04-17 08:20:37,886 | INFO | leadgen.email_txt | Playwright fallback: airtron.com
+2026-04-17 08:20:47,637 | INFO | leadgen.email_txt | Playwright fallback: allwestelectric.com
+2026-04-17 08:20:56,786 | INFO | leadgen.email_txt | Playwright fallback: americanbuilders.ca
+2026-04-17 08:21:10,766 | INFO | leadgen.email_txt | Playwright fallback: americanpool.com
+2026-04-17 08:21:19,753 | INFO | leadgen.email_txt | Playwright fallback: arizton.com
+2026-04-17 08:21:32,286 | INFO | leadgen.email_txt | Playwright fallback: ars.com
+2026-04-17 08:21:40,262 | INFO | leadgen.email_txt | Playwright fallback: b.jobcase.com
+2026-04-17 08:21:47,270 | INFO | leadgen.email_txt | Playwright fallback: baker-electric.com
+2026-04-17 08:21:58,546 | INFO | leadgen.email_txt | Playwright fallback: bigrentz.com
+2026-04-17 08:22:21,717 | INFO | leadgen.email_txt | Playwright fallback: blog.prodatalabs.com
+2026-04-17 08:22:31,368 | INFO | leadgen.email_txt | Playwright fallback: business-standard.com
+2026-04-17 08:22:43,231 | INFO | leadgen.email_txt | Playwright fallback: canada-listing.com
+2026-04-17 08:22:51,839 | INFO | leadgen.email_txt | Playwright fallback: canadacompanyregistry.com
+2026-04-17 08:22:59,696 | INFO | leadgen.email_txt | Playwright fallback: carrierenterprise.com
+2026-04-17 08:23:09,390 | INFO | leadgen.email_txt | Playwright fallback: citiservi.com
+2026-04-17 08:23:19,505 | INFO | leadgen.email_txt | Playwright fallback: clockshark.com
+2026-04-17 08:23:26,155 | INFO | leadgen.email_txt | Playwright fallback: commerce.gov
+2026-04-17 08:23:35,355 | INFO | leadgen.email_txt | Playwright fallback: crb.ri.gov
+2026-04-17 08:23:41,930 | INFO | leadgen.email_txt | Playwright fallback: constructionbriefing.com
+2026-04-17 08:24:08,955 | INFO | leadgen.email_txt | Playwright fallback: eccosupply.ca
+2026-04-17 08:24:19,913 | INFO | leadgen.email_txt | Playwright fallback: ensun.io
+2026-04-17 08:24:31,546 | INFO | leadgen.email_txt | Playwright fallback: enr.com
+2026-04-17 08:24:41,048 | INFO | leadgen.email_txt | Playwright fallback: fdcorp.com
+2026-04-17 08:24:46,228 | INFO | leadgen.email_txt | Playwright fallback: ferguson.com
+2026-04-17 08:25:11,019 | INFO | leadgen.email_txt | Playwright fallback: geco.com
+2026-04-17 08:25:29,143 | INFO | leadgen.email_txt | Playwright fallback: gemaire.com
+2026-04-17 08:25:38,891 | INFO | leadgen.email_txt | Playwright fallback: gordiehoweinternationalbridge.com
+2026-04-17 08:25:45,164 | INFO | leadgen.email_txt | Playwright fallback: homeguide.com
+2026-04-17 08:25:55,293 | INFO | leadgen.email_txt | Playwright fallback: homestars.com
+2026-04-17 08:26:09,576 | INFO | leadgen.email_txt | Playwright fallback: hvacnearme.ca
+2026-04-17 08:26:29,572 | INFO | leadgen.email_txt | Playwright fallback: guardianpools.com
+2026-04-17 08:27:35,656 | INFO | leadgen.email_txt | Playwright fallback: itnowtechnologies.com
+2026-04-17 08:27:58,211 | INFO | leadgen.email_txt | Playwright fallback: labor.arkansas.gov
+2026-04-17 08:28:07,763 | INFO | leadgen.email_txt | Playwright fallback: master.ca
+2026-04-17 08:28:20,691 | INFO | leadgen.email_txt | Playwright fallback: media.defense.gov
+2026-04-17 08:28:33,268 | INFO | leadgen.email_txt | Playwright fallback: mestek.com
+2026-04-17 08:28:42,260 | INFO | leadgen.email_txt | Playwright fallback: msboc.us
+2026-04-17 08:28:58,438 | INFO | leadgen.email_txt | Playwright fallback: msme.gov.in
+2026-04-17 08:29:16,407 | INFO | leadgen.email_txt | Playwright fallback: necanet.org
+2026-04-17 08:29:33,344 | INFO | leadgen.email_txt | Playwright fallback: nexstarnetwork.com
+2026-04-17 08:29:40,360 | INFO | leadgen.email_txt | Playwright fallback: osha.gov
+2026-04-17 08:29:53,735 | INFO | leadgen.email_txt | Playwright fallback: money.usnews.com
+2026-04-17 08:30:08,975 | INFO | leadgen.email_txt | Playwright fallback: paperadvance.com
+2026-04-17 08:30:43,611 | INFO | leadgen.email_txt | Playwright fallback: poolcontractor.com
+2026-04-17 08:30:49,770 | INFO | leadgen.email_txt | Playwright fallback: poolrenovation.com
+2026-04-17 08:30:58,744 | INFO | leadgen.email_txt | Playwright fallback: poolsupplyunlimited.com
+2026-04-17 08:31:16,065 | INFO | leadgen.email_txt | Playwright fallback: poolwarehouse.com
+2026-04-17 08:32:09,917 | INFO | leadgen.email_txt | Playwright fallback: refecto.ca
+2026-04-17 08:32:15,312 | INFO | leadgen.email_txt | Playwright fallback: reuters.com
+2026-04-17 08:32:25,569 | INFO | leadgen.email_txt | Playwright fallback: roadtechs.com
+2026-04-17 08:32:58,239 | INFO | leadgen.email_txt | Playwright fallback: seattletimes.com
+2026-04-17 08:33:05,472 | INFO | leadgen.email_txt | Playwright fallback: simacanada.ca
+2026-04-17 08:33:14,437 | INFO | leadgen.email_txt | Playwright fallback: superiorhvacservice.ca
+2026-04-17 08:33:25,636 | INFO | leadgen.email_txt | Playwright fallback: themost10.com
+2026-04-17 08:33:32,697 | INFO | leadgen.email_txt | Playwright fallback: thumbtack.com
+2026-04-17 08:33:47,061 | INFO | leadgen.email_txt | Playwright fallback: torontopoolservices.ca
+2026-04-17 08:33:56,043 | INFO | leadgen.email_txt | Playwright fallback: trustedpros.ca
+2026-04-17 08:34:00,373 | INFO | leadgen.email_txt | Playwright fallback: us.businessesforsale.com
+2026-04-17 08:34:12,138 | INFO | leadgen.email_txt | Playwright fallback: westernelectrical.com
+2026-04-17 08:34:27,349 | INFO | leadgen.email_txt | Playwright fallback: yably.ca
+2026-04-17 08:34:40,594 | INFO | leadgen.email_txt | Playwright fallback: zegaapparel.com
+2026-04-17 08:34:51,577 | INFO | leadgen.email_txt | Playwright fallback: zoominfo.com
+2026-04-17 08:35:09,620 | INFO | leadgen.email_txt | Playwright fallback: thetorocompany.com
+2026-04-17 08:35:22,053 | INFO | leadgen.email_txt | Done. New unique emails: 805 → D:\email_scraper\email_scraper_project\emails.txt
+2026-04-17 10:11:06,192 | INFO | leadgen.playwright_collect | Engines: bing, duckduckgo, yahoo | 108 query/queries | up to 58 new domains per engine per query | total cap 500 | SERP pages: bing=8, duckduckgo=8, yahoo=8
+2026-04-17 10:11:06,199 | ERROR | leadgen.pipeline | collect failed
+Traceback (most recent call last):
+  File "D:\email_scraper\email_scraper_project\email_scraper_project\pipeline_runner.py", line 163, in run_full_pipeline
+    out.collect_stats = collect_domains_playwright(
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        queries=out.queries,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<16 lines>...
+        b2b_enrich=False,
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\email_scraper\email_scraper_project\email_scraper_project\browser_search\playwright_collector.py", line 923, in collect_domains_playwright
+    with sync_playwright() as p:
+         ~~~~~~~~~~~~~~~^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        stderr=stderr, **kwds)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 1798, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        protocol, popen_args, False, stdin, stdout, stderr,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        bufsize, **kwargs)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 533, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-04-17 10:11:32,583 | INFO | leadgen.playwright_collect | Engines: bing, duckduckgo, yahoo | 108 query/queries | up to 58 new domains per engine per query | total cap 500 | SERP pages: bing=8, duckduckgo=8, yahoo=8
+2026-04-17 10:11:32,585 | ERROR | leadgen.pipeline | collect failed
+Traceback (most recent call last):
+  File "D:\email_scraper\email_scraper_project\email_scraper_project\pipeline_runner.py", line 163, in run_full_pipeline
+    out.collect_stats = collect_domains_playwright(
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        queries=out.queries,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<16 lines>...
+        b2b_enrich=False,
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\email_scraper\email_scraper_project\email_scraper_project\browser_search\playwright_collector.py", line 923, in collect_domains_playwright
+    with sync_playwright() as p:
+         ~~~~~~~~~~~~~~~^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        stderr=stderr, **kwds)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 1798, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        protocol, popen_args, False, stdin, stdout, stderr,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        bufsize, **kwargs)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 533, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-04-17 10:11:34,285 | INFO | leadgen.playwright_collect | Engines: bing, duckduckgo, yahoo | 108 query/queries | up to 58 new domains per engine per query | total cap 500 | SERP pages: bing=8, duckduckgo=8, yahoo=8
+2026-04-17 10:11:34,286 | ERROR | leadgen.pipeline | collect failed
+Traceback (most recent call last):
+  File "D:\email_scraper\email_scraper_project\email_scraper_project\pipeline_runner.py", line 163, in run_full_pipeline
+    out.collect_stats = collect_domains_playwright(
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        queries=out.queries,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<16 lines>...
+        b2b_enrich=False,
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\email_scraper\email_scraper_project\email_scraper_project\browser_search\playwright_collector.py", line 923, in collect_domains_playwright
+    with sync_playwright() as p:
+         ~~~~~~~~~~~~~~~^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        stderr=stderr, **kwds)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 1798, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        protocol, popen_args, False, stdin, stdout, stderr,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        bufsize, **kwargs)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 533, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-04-17 10:11:35,242 | INFO | leadgen.playwright_collect | Engines: bing, duckduckgo, yahoo | 108 query/queries | up to 58 new domains per engine per query | total cap 500 | SERP pages: bing=8, duckduckgo=8, yahoo=8
+2026-04-17 10:11:35,244 | ERROR | leadgen.pipeline | collect failed
+Traceback (most recent call last):
+  File "D:\email_scraper\email_scraper_project\email_scraper_project\pipeline_runner.py", line 163, in run_full_pipeline
+    out.collect_stats = collect_domains_playwright(
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        queries=out.queries,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<16 lines>...
+        b2b_enrich=False,
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\email_scraper\email_scraper_project\email_scraper_project\browser_search\playwright_collector.py", line 923, in collect_domains_playwright
+    with sync_playwright() as p:
+         ~~~~~~~~~~~~~~~^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        stderr=stderr, **kwds)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 1798, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        protocol, popen_args, False, stdin, stdout, stderr,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        bufsize, **kwargs)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 533, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-04-17 10:12:05,644 | INFO | leadgen.playwright_collect | Engines: bing, duckduckgo, yahoo | 108 query/queries | up to 58 new domains per engine per query | total cap 500 | SERP pages: bing=8, duckduckgo=8, yahoo=8
+2026-04-17 10:12:05,646 | ERROR | leadgen.pipeline | collect failed
+Traceback (most recent call last):
+  File "D:\email_scraper\email_scraper_project\email_scraper_project\pipeline_runner.py", line 163, in run_full_pipeline
+    out.collect_stats = collect_domains_playwright(
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        queries=out.queries,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<16 lines>...
+        b2b_enrich=False,
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\email_scraper\email_scraper_project\email_scraper_project\browser_search\playwright_collector.py", line 923, in collect_domains_playwright
+    with sync_playwright() as p:
+         ~~~~~~~~~~~~~~~^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        stderr=stderr, **kwds)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 1798, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        protocol, popen_args, False, stdin, stdout, stderr,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        bufsize, **kwargs)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 533, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-04-17 10:15:14,394 | INFO | leadgen.playwright_collect | Engines: bing, duckduckgo, yahoo | 108 query/queries | up to 58 new domains per engine per query | total cap 500 | SERP pages: bing=8, duckduckgo=8, yahoo=8
+2026-04-17 10:15:14,397 | ERROR | leadgen.pipeline | collect failed
+Traceback (most recent call last):
+  File "D:\email_scraper\email_scraper_project\email_scraper_project\pipeline_runner.py", line 163, in run_full_pipeline
+    out.collect_stats = collect_domains_playwright(
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        queries=out.queries,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<16 lines>...
+        b2b_enrich=False,
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\email_scraper\email_scraper_project\email_scraper_project\browser_search\playwright_collector.py", line 923, in collect_domains_playwright
+    if not line or line.startswith("#"):
+    ^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 77, in __enter__
+    dispatcher_fiber.switch()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\sync_api\_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 303, in run_as_sync
+    await self.run()
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.connect()
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\subprocess.py", line 224, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        stderr=stderr, **kwds)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 1798, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        protocol, popen_args, False, stdin, stdout, stderr,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        bufsize, **kwargs)
+        ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 533, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2026-04-17 10:15:55,534 | INFO | leadgen.playwright_collect | Engines: bing, duckduckgo, yahoo | 108 query/queries | up to 50 new domains per engine per query | total cap 500 | SERP pages: bing=5, duckduckgo=5, yahoo=5
+2026-04-17 10:15:56,371 | INFO | leadgen.playwright_collect | Chromium launcher: chrome
+2026-04-17 10:15:56,574 | INFO | leadgen.playwright_collect | === Query 1/108: 'hvac service company Texas USA' ===
+2026-04-17 10:15:56,575 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 5 SERP page(s); total cap 500) ---
+2026-04-17 10:16:25,390 | INFO | leadgen.playwright_collect | --- BING done: +37 domains (session total 37) ---
+2026-04-17 10:16:26,829 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 5 SERP page(s); total cap 500) ---
+2026-04-17 10:16:31,615 | WARNING | leadgen.playwright_collect | DuckDuckGo JS SERP returned no links; trying HTML fallback.
+2026-04-17 10:16:34,921 | WARNING | leadgen.playwright_collect | DuckDuckGo HTML: no harvestable links for query='hvac service company Texas USA'
+2026-04-17 10:16:34,921 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +0 domains (session total 37) ---
+2026-04-17 10:16:37,245 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 5 SERP page(s); total cap 500) ---
+2026-04-17 10:16:53,499 | INFO | leadgen.playwright_collect | Engines: bing, duckduckgo, yahoo | 108 query/queries | up to 50 new domains per engine per query | total cap 500 | SERP pages: bing=10, duckduckgo=10, yahoo=10
+2026-04-17 10:16:54,314 | INFO | leadgen.playwright_collect | Chromium launcher: chrome
+2026-04-17 10:16:54,565 | INFO | leadgen.playwright_collect | === Query 1/108: 'hvac service company Texas USA' ===
+2026-04-17 10:16:54,566 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:17:06,739 | INFO | leadgen.playwright_collect | --- YAHOO done: +18 domains (session total 55) ---
+2026-04-17 10:17:16,753 | ERROR | leadgen.playwright_collect | Engine bing failed for 'hvac service company Texas USA': Page.wait_for_timeout: Target page, context or browser has been closed
+Traceback (most recent call last):
+  File "D:\email_scraper\email_scraper_project\email_scraper_project\browser_search\playwright_collector.py", line 975, in collect_domains_playwright
+    _ENGINE_FUNCS[eng](
+    ~~~~~~~~~~~~~~~~~~^
+        page,
+        ^^^^^
+    ...<7 lines>...
+        npg,
+        ^^^^
+    )
+    ^
+  File "D:\email_scraper\email_scraper_project\email_scraper_project\browser_search\playwright_collector.py", line 423, in _bing_page
+    page.wait_for_timeout(800)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\sync_api\_generated.py", line 11536, in wait_for_timeout
+    self._sync(self._impl_obj.wait_for_timeout(timeout=timeout))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_page.py", line 1101, in wait_for_timeout
+    await self._main_frame.wait_for_timeout(timeout)
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_frame.py", line 862, in wait_for_timeout
+    await self._channel.send("waitForTimeout", None, {"waitTimeout": timeout})
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\excel\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-04-17 10:17:16,754 | INFO | leadgen.playwright_collect | ERROR bing: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-04-17 10:18:45,091 | INFO | leadgen.playwright_collect | Engines: bing, duckduckgo, yahoo | 108 query/queries | up to 50 new domains per engine per query | total cap 500 | SERP pages: bing=10, duckduckgo=10, yahoo=10
+2026-04-17 10:18:46,002 | INFO | leadgen.playwright_collect | Chromium launcher: chrome
+2026-04-17 10:18:46,198 | INFO | leadgen.playwright_collect | === Query 1/108: 'hvac service company Texas USA' ===
+2026-04-17 10:18:46,199 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:19:32,617 | INFO | leadgen.playwright_collect | --- BING done: +50 domains (session total 50) ---
+2026-04-17 10:19:33,917 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:19:39,218 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +1 domains (session total 51) ---
+2026-04-17 10:19:40,358 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:20:37,396 | INFO | leadgen.playwright_collect | --- YAHOO done: +23 domains (session total 74) ---
+2026-04-17 10:20:39,517 | INFO | leadgen.playwright_collect | === Query 2/108: 'hvac service company company Texas USA' ===
+2026-04-17 10:20:39,518 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:21:39,213 | INFO | leadgen.playwright_collect | --- BING done: +17 domains (session total 91) ---
+2026-04-17 10:21:41,084 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:21:46,330 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +1 domains (session total 92) ---
+2026-04-17 10:21:47,695 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:22:44,371 | INFO | leadgen.playwright_collect | --- YAHOO done: +10 domains (session total 102) ---
+2026-04-17 10:22:46,777 | INFO | leadgen.playwright_collect | === Query 3/108: 'hvac service company services Texas USA' ===
+2026-04-17 10:22:46,777 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:23:42,415 | INFO | leadgen.playwright_collect | --- BING done: +12 domains (session total 114) ---
+2026-04-17 10:23:43,556 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:23:47,980 | WARNING | leadgen.playwright_collect | DuckDuckGo JS SERP returned no links; trying HTML fallback.
+2026-04-17 10:23:51,223 | WARNING | leadgen.playwright_collect | DuckDuckGo HTML: no harvestable links for query='hvac service company services Texas USA'
+2026-04-17 10:23:51,224 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +0 domains (session total 114) ---
+2026-04-17 10:23:52,562 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:24:50,345 | INFO | leadgen.playwright_collect | --- YAHOO done: +8 domains (session total 122) ---
+2026-04-17 10:24:52,239 | INFO | leadgen.playwright_collect | === Query 4/108: 'hvac service company California USA' ===
+2026-04-17 10:24:52,240 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:25:50,415 | INFO | leadgen.playwright_collect | --- BING done: +47 domains (session total 169) ---
+2026-04-17 10:25:52,407 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:25:56,869 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +1 domains (session total 170) ---
+2026-04-17 10:25:58,625 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:26:55,641 | INFO | leadgen.playwright_collect | --- YAHOO done: +6 domains (session total 176) ---
+2026-04-17 10:26:57,153 | INFO | leadgen.playwright_collect | === Query 5/108: 'hvac service company company California USA' ===
+2026-04-17 10:26:57,154 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:27:52,096 | INFO | leadgen.playwright_collect | --- BING done: +6 domains (session total 182) ---
+2026-04-17 10:27:54,479 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:27:59,420 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +1 domains (session total 183) ---
+2026-04-17 10:28:01,901 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:28:55,711 | INFO | leadgen.playwright_collect | --- YAHOO done: +1 domains (session total 184) ---
+2026-04-17 10:28:57,791 | INFO | leadgen.playwright_collect | === Query 6/108: 'hvac service company services California USA' ===
+2026-04-17 10:28:57,792 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:29:56,835 | INFO | leadgen.playwright_collect | --- BING done: +8 domains (session total 192) ---
+2026-04-17 10:29:59,181 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:30:04,246 | WARNING | leadgen.playwright_collect | DuckDuckGo JS SERP returned no links; trying HTML fallback.
+2026-04-17 10:30:07,364 | WARNING | leadgen.playwright_collect | DuckDuckGo HTML: no harvestable links for query='hvac service company services California USA'
+2026-04-17 10:30:07,364 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +0 domains (session total 192) ---
+2026-04-17 10:30:09,714 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:31:10,192 | INFO | leadgen.playwright_collect | --- YAHOO done: +6 domains (session total 198) ---
+2026-04-17 10:31:11,517 | INFO | leadgen.playwright_collect | === Query 7/108: 'hvac service company Florida USA' ===
+2026-04-17 10:31:11,519 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:32:00,366 | INFO | leadgen.playwright_collect | --- BING done: +50 domains (session total 248) ---
+2026-04-17 10:32:02,663 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:32:07,490 | WARNING | leadgen.playwright_collect | DuckDuckGo JS SERP returned no links; trying HTML fallback.
+2026-04-17 10:32:11,059 | WARNING | leadgen.playwright_collect | DuckDuckGo HTML: no harvestable links for query='hvac service company Florida USA'
+2026-04-17 10:32:11,059 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +0 domains (session total 248) ---
+2026-04-17 10:32:12,628 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:33:11,982 | INFO | leadgen.playwright_collect | --- YAHOO done: +6 domains (session total 254) ---
+2026-04-17 10:33:13,711 | INFO | leadgen.playwright_collect | === Query 8/108: 'hvac service company company Florida USA' ===
+2026-04-17 10:33:13,712 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:34:11,237 | INFO | leadgen.playwright_collect | --- BING done: +17 domains (session total 271) ---
+2026-04-17 10:34:13,294 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:34:18,063 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +1 domains (session total 272) ---
+2026-04-17 10:34:19,786 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:35:16,892 | INFO | leadgen.playwright_collect | --- YAHOO done: +5 domains (session total 277) ---
+2026-04-17 10:35:18,033 | INFO | leadgen.playwright_collect | === Query 9/108: 'hvac service company services Florida USA' ===
+2026-04-17 10:35:18,034 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:36:09,982 | INFO | leadgen.playwright_collect | --- BING done: +9 domains (session total 286) ---
+2026-04-17 10:36:12,311 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:36:16,477 | WARNING | leadgen.playwright_collect | DuckDuckGo JS SERP returned no links; trying HTML fallback.
+2026-04-17 10:36:19,866 | WARNING | leadgen.playwright_collect | DuckDuckGo HTML: no harvestable links for query='hvac service company services Florida USA'
+2026-04-17 10:36:19,866 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +0 domains (session total 286) ---
+2026-04-17 10:36:21,267 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:37:20,857 | INFO | leadgen.playwright_collect | --- YAHOO done: +8 domains (session total 294) ---
+2026-04-17 10:37:22,233 | INFO | leadgen.playwright_collect | === Query 10/108: 'hvac service company New York USA' ===
+2026-04-17 10:37:22,235 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:38:22,824 | INFO | leadgen.playwright_collect | --- BING done: +48 domains (session total 342) ---
+2026-04-17 10:38:24,679 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:38:29,176 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +3 domains (session total 345) ---
+2026-04-17 10:38:31,523 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:39:29,031 | INFO | leadgen.playwright_collect | --- YAHOO done: +14 domains (session total 359) ---
+2026-04-17 10:39:31,072 | INFO | leadgen.playwright_collect | === Query 11/108: 'hvac service company company New York USA' ===
+2026-04-17 10:39:31,072 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:40:34,655 | INFO | leadgen.playwright_collect | --- BING done: +7 domains (session total 366) ---
+2026-04-17 10:40:35,701 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:40:41,103 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +1 domains (session total 367) ---
+2026-04-17 10:40:42,385 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:41:39,316 | INFO | leadgen.playwright_collect | --- YAHOO done: +8 domains (session total 375) ---
+2026-04-17 10:41:40,634 | INFO | leadgen.playwright_collect | === Query 12/108: 'hvac service company services New York USA' ===
+2026-04-17 10:41:40,635 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:42:40,489 | INFO | leadgen.playwright_collect | --- BING done: +5 domains (session total 380) ---
+2026-04-17 10:42:42,899 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:42:47,661 | WARNING | leadgen.playwright_collect | DuckDuckGo JS SERP returned no links; trying HTML fallback.
+2026-04-17 10:42:56,136 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +1 domains (session total 381) ---
+2026-04-17 10:42:57,667 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:43:48,878 | INFO | leadgen.playwright_collect | --- YAHOO done: +2 domains (session total 383) ---
+2026-04-17 10:43:50,799 | INFO | leadgen.playwright_collect | === Query 13/108: 'electrical contractor company Texas USA' ===
+2026-04-17 10:43:50,800 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:44:41,450 | INFO | leadgen.playwright_collect | --- BING done: +50 domains (session total 433) ---
+2026-04-17 10:44:42,593 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:44:47,164 | WARNING | leadgen.playwright_collect | DuckDuckGo JS SERP returned no links; trying HTML fallback.
+2026-04-17 10:44:50,674 | WARNING | leadgen.playwright_collect | DuckDuckGo HTML: no harvestable links for query='electrical contractor company Texas USA'
+2026-04-17 10:44:50,674 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +0 domains (session total 433) ---
+2026-04-17 10:44:52,307 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:45:48,296 | INFO | leadgen.playwright_collect | --- YAHOO done: +10 domains (session total 443) ---
+2026-04-17 10:45:49,849 | INFO | leadgen.playwright_collect | === Query 14/108: 'electrical contractor company company Texas USA' ===
+2026-04-17 10:45:49,850 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:46:45,640 | INFO | leadgen.playwright_collect | --- BING done: +25 domains (session total 468) ---
+2026-04-17 10:46:47,689 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:46:52,113 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +1 domains (session total 469) ---
+2026-04-17 10:46:54,611 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:47:52,563 | INFO | leadgen.playwright_collect | --- YAHOO done: +15 domains (session total 484) ---
+2026-04-17 10:47:53,956 | INFO | leadgen.playwright_collect | === Query 15/108: 'electrical contractor company services Texas USA' ===
+2026-04-17 10:47:53,957 | INFO | leadgen.playwright_collect | --- BING (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:48:53,536 | INFO | leadgen.playwright_collect | --- BING done: +12 domains (session total 496) ---
+2026-04-17 10:48:55,021 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:48:59,570 | INFO | leadgen.playwright_collect | --- DUCKDUCKGO done: +1 domains (session total 497) ---
+2026-04-17 10:49:01,308 | INFO | leadgen.playwright_collect | --- YAHOO (target +50 domains; max 10 SERP page(s); total cap 500) ---
+2026-04-17 10:49:41,575 | INFO | leadgen.playwright_collect | --- YAHOO done: +3 domains (session total 500) ---
+2026-04-17 10:49:42,961 | INFO | leadgen.playwright_collect | Saved 500 new domains to D:\email_scraper\email_scraper_project\domains.txt (unique this run: 500; per-engine cap was 50)
+2026-04-17 10:49:43,118 | INFO | leadgen.email_txt | Crawling 500 domains (workers=10)
+2026-04-17 10:49:49,966 | INFO | leadgen.email_txt | 1hvaccompany.com: +1 raw hits (deduped globally)
+2026-04-17 10:49:50,657 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: achrnews.com
+2026-04-17 10:49:51,777 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: 4abc.com
+2026-04-17 10:49:52,652 | INFO | leadgen.email_txt | acextra.com: +1 raw hits (deduped globally)
+2026-04-17 10:49:54,160 | INFO | leadgen.email_txt | 75degreeac.com: +1 raw hits (deduped globally)
+2026-04-17 10:49:57,321 | INFO | leadgen.email_txt | acr-hvac.com: +2 raw hits (deduped globally)
+2026-04-17 10:49:57,430 | INFO | leadgen.email_txt | 212hvac.com: +1 raw hits (deduped globally)
+2026-04-17 10:49:59,178 | INFO | leadgen.email_txt | acandheatrepairs.com: +1 raw hits (deduped globally)
+2026-04-17 10:49:59,180 | INFO | leadgen.email_txt | acs.us: +12 raw hits (deduped globally)
+2026-04-17 10:50:02,878 | INFO | leadgen.email_txt | actexasllc.com: +5 raw hits (deduped globally)
+2026-04-17 10:50:03,905 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: acrepairnewyorkny.com
+2026-04-17 10:50:05,674 | INFO | leadgen.email_txt | adams-air.com: +1 raw hits (deduped globally)
+2026-04-17 10:50:06,155 | INFO | leadgen.email_txt | aaon.com: +2 raw hits (deduped globally)
+2026-04-17 10:50:07,856 | INFO | leadgen.email_txt | actionairfl.com: +2 raw hits (deduped globally)
+2026-04-17 10:50:14,612 | INFO | leadgen.email_txt | aeos.energy: +2 raw hits (deduped globally)
+2026-04-17 10:50:17,195 | INFO | leadgen.email_txt | advancedairsystem.com: +1 raw hits (deduped globally)
+2026-04-17 10:50:19,967 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: airconditionermiami.com
+2026-04-17 10:50:20,956 | INFO | leadgen.email_txt | aircomechanical.com: +1 raw hits (deduped globally)
+2026-04-17 10:50:21,633 | INFO | leadgen.email_txt | aircareheatandcool.com: +21 raw hits (deduped globally)
+2026-04-17 10:50:23,272 | INFO | leadgen.email_txt | airco.com: +28 raw hits (deduped globally)
+2026-04-17 10:50:24,234 | INFO | leadgen.email_txt | afgo.com: +9 raw hits (deduped globally)
+2026-04-17 10:50:29,651 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: airconditioning-florida.com
+2026-04-17 10:50:32,944 | INFO | leadgen.email_txt | airdynamicsofflorida.com: +1 raw hits (deduped globally)
+2026-04-17 10:50:33,665 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: airetexas.com
+2026-04-17 10:50:34,334 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: airflowdesigns.com
+2026-04-17 10:50:35,050 | INFO | leadgen.email_txt | airflowconditioning.com: +1 raw hits (deduped globally)
+2026-04-17 10:50:43,339 | INFO | leadgen.email_txt | airplex.co: +1 raw hits (deduped globally)
+2026-04-17 10:50:44,080 | INFO | leadgen.email_txt | airsupplyacservices.com: +6 raw hits (deduped globally)
+2026-04-17 10:50:46,880 | INFO | leadgen.email_txt | airref.com: +5 raw hits (deduped globally)
+2026-04-17 10:50:50,367 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: airtechofhouston.com
+2026-04-17 10:50:57,354 | INFO | leadgen.email_txt | airtacticalhvac.com: +1 raw hits (deduped globally)
+2026-04-17 10:51:02,240 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: airtron.com
+2026-04-17 10:51:06,194 | INFO | leadgen.email_txt | airtoairinc.com: +1 raw hits (deduped globally)
+2026-04-17 10:51:08,666 | INFO | leadgen.email_txt | airwaveac.com: +2 raw hits (deduped globally)
+2026-04-17 10:51:09,697 | INFO | leadgen.email_txt | airplexmechanical.com: +1 raw hits (deduped globally)
+2026-04-17 10:51:11,226 | INFO | leadgen.email_txt | airtronicsnyc.com: +2 raw hits (deduped globally)
+2026-04-17 10:51:13,285 | INFO | leadgen.email_txt | airtempdallas.com: +1 raw hits (deduped globally)
+2026-04-17 10:51:15,847 | INFO | leadgen.email_txt | airtxac.com: +1 raw hits (deduped globally)
+2026-04-17 10:51:18,945 | INFO | leadgen.email_txt | aisheatingandair.com: +11 raw hits (deduped globally)
+2026-04-17 10:51:21,827 | INFO | leadgen.email_txt | allhvac.com: +1 raw hits (deduped globally)
+2026-04-17 10:51:22,014 | INFO | leadgen.email_txt | alliedelectric.us: +1 raw hits (deduped globally)
+2026-04-17 10:51:23,311 | INFO | leadgen.email_txt | alfrescoairhvac.com: +4 raw hits (deduped globally)
+2026-04-17 10:51:25,134 | INFO | leadgen.email_txt | alldadeairconditioningandheating.com: +1 raw hits (deduped globally)
+2026-04-17 10:51:25,609 | INFO | leadgen.email_txt | airreyservice.com: +1 raw hits (deduped globally)
+2026-04-17 10:51:28,448 | INFO | leadgen.email_txt | alamoaustinair.com: +29 raw hits (deduped globally)
+2026-04-17 10:51:28,962 | INFO | leadgen.email_txt | aireserv.com: +1 raw hits (deduped globally)
+2026-04-17 10:51:34,071 | INFO | leadgen.email_txt | ambroseair.com: +4 raw hits (deduped globally)
+2026-04-17 10:51:39,847 | INFO | leadgen.email_txt | americanhvac.nyc: +1 raw hits (deduped globally)
+2026-04-17 10:51:42,267 | INFO | leadgen.email_txt | allyearcooling.com: +1 raw hits (deduped globally)
+2026-04-17 10:51:43,707 | INFO | leadgen.email_txt | americanhvacinc.com: +1 raw hits (deduped globally)
+2026-04-17 10:51:44,318 | INFO | leadgen.email_txt | allsourcelectrical.com: +2 raw hits (deduped globally)
+2026-04-17 10:51:45,094 | INFO | leadgen.email_txt | americanhvaccorp.us: +1 raw hits (deduped globally)
+2026-04-17 10:51:54,464 | INFO | leadgen.email_txt | aristair.com: +6 raw hits (deduped globally)
+2026-04-17 10:51:57,566 | INFO | leadgen.email_txt | andersonieservices.com: +4 raw hits (deduped globally)
+2026-04-17 10:52:06,140 | INFO | leadgen.email_txt | armstrongairinc.com: +1 raw hits (deduped globally)
+2026-04-17 10:52:06,162 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: ars.com
+2026-04-17 10:52:06,579 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: athomepros.com
+2026-04-17 10:52:06,785 | INFO | leadgen.email_txt | aroundclock.com: +2 raw hits (deduped globally)
+2026-04-17 10:52:16,232 | INFO | leadgen.email_txt | azaircond.com: +2 raw hits (deduped globally)
+2026-04-17 10:52:16,937 | INFO | leadgen.email_txt | austinairconditioning.com: +1 raw hits (deduped globally)
+2026-04-17 10:52:17,724 | INFO | leadgen.email_txt | avalonair.net: +2 raw hits (deduped globally)
+2026-04-17 10:52:19,263 | INFO | leadgen.email_txt | atxheatingandac.com: +1 raw hits (deduped globally)
+2026-04-17 10:52:20,217 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: actexas.us
+2026-04-17 10:52:20,872 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: b.jobcase.com
+2026-04-17 10:52:30,575 | INFO | leadgen.email_txt | betterbuyer.com: +1 raw hits (deduped globally)
+2026-04-17 10:52:30,705 | INFO | leadgen.email_txt | bighaservice.com: +1 raw hits (deduped globally)
+2026-04-17 10:52:33,670 | INFO | leadgen.email_txt | bestinhood.com: +1 raw hits (deduped globally)
+2026-04-17 10:52:34,228 | INFO | leadgen.email_txt | boringcompany.com: +3 raw hits (deduped globally)
+2026-04-17 10:52:34,451 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: bigstateelectric.com
+2026-04-17 10:52:41,951 | INFO | leadgen.email_txt | bestpickreports.com: +1 raw hits (deduped globally)
+2026-04-17 10:52:43,500 | INFO | leadgen.email_txt | brianhvacmechanical.com: +1 raw hits (deduped globally)
+2026-04-17 10:52:46,571 | INFO | leadgen.email_txt | brightstarservice.com: +4 raw hits (deduped globally)
+2026-04-17 10:52:52,975 | INFO | leadgen.email_txt | businessinsider.com: +13 raw hits (deduped globally)
+2026-04-17 10:52:55,935 | INFO | leadgen.email_txt | cal-air.com: +1 raw hits (deduped globally)
+2026-04-17 10:52:58,434 | INFO | leadgen.email_txt | californiaac.com: +1 raw hits (deduped globally)
+2026-04-17 10:53:00,202 | INFO | leadgen.email_txt | californiahvacinc.com: +2 raw hits (deduped globally)
+2026-04-17 10:53:02,858 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: californiairheatingandac.com
+2026-04-17 10:53:06,418 | INFO | leadgen.email_txt | califservice.com: +1 raw hits (deduped globally)
+2026-04-17 10:53:12,886 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: carrierenterprise.com
+2026-04-17 10:53:13,603 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: airtemp.com
+2026-04-17 10:53:13,644 | INFO | leadgen.email_txt | ceelectricllc.com: +4 raw hits (deduped globally)
+2026-04-17 10:53:16,059 | INFO | leadgen.email_txt | callairplus.com: +14 raw hits (deduped globally)
+2026-04-17 10:53:16,999 | INFO | leadgen.email_txt | campbellelectrictexas.com: +1 raw hits (deduped globally)
+2026-04-17 10:53:18,569 | INFO | leadgen.email_txt | cedcareers.com: +1 raw hits (deduped globally)
+2026-04-17 10:53:19,682 | INFO | leadgen.email_txt | centralairconditioningnyc.com: +1 raw hits (deduped globally)
+2026-04-17 10:53:23,292 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: championac.com
+2026-04-17 10:53:26,759 | INFO | leadgen.email_txt | certifiedairservices.com: +1 raw hits (deduped globally)
+2026-04-17 10:53:29,850 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: cityelectricsupply.com
+2026-04-17 10:53:32,140 | INFO | leadgen.email_txt | chapaservice.com: +1 raw hits (deduped globally)
+2026-04-17 10:53:33,899 | INFO | leadgen.email_txt | choosetexaspower.org: +4 raw hits (deduped globally)
+2026-04-17 10:53:40,560 | INFO | leadgen.email_txt | christianhvac.com: +1 raw hits (deduped globally)
+2026-04-17 10:53:41,862 | INFO | leadgen.email_txt | ceocolumn.com: +2 raw hits (deduped globally)
+2026-04-17 10:53:42,954 | INFO | leadgen.email_txt | clevelandelectric.com: +1 raw hits (deduped globally)
+2026-04-17 10:53:46,185 | INFO | leadgen.email_txt | compacthvac.com: +2 raw hits (deduped globally)
+2026-04-17 10:53:54,789 | INFO | leadgen.email_txt | chron.com: +48 raw hits (deduped globally)
+2026-04-17 10:53:57,349 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: americanhvaccorp.com
+2026-04-17 10:53:58,076 | INFO | leadgen.email_txt | coolairnyc.com: +1 raw hits (deduped globally)
+2026-04-17 10:53:59,874 | INFO | leadgen.email_txt | consumeraffairs.com: +1 raw hits (deduped globally)
+2026-04-17 10:54:11,925 | INFO | leadgen.email_txt | coolmenow.com: +1 raw hits (deduped globally)
+2026-04-17 10:54:12,168 | INFO | leadgen.email_txt | cssinsuranceservices.com: +1 raw hits (deduped globally)
+2026-04-17 10:54:16,723 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: daikin.com
+2026-04-17 10:54:25,249 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: cummingselec.com
+2026-04-17 10:54:25,593 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: crawfordelectricsupply.com
+2026-04-17 10:54:29,674 | INFO | leadgen.email_txt | deepsouthelectrical.com: +2 raw hits (deduped globally)
+2026-04-17 10:54:35,743 | INFO | leadgen.email_txt | culturalhvac.com: +1 raw hits (deduped globally)
+2026-04-17 10:54:41,132 | INFO | leadgen.email_txt | dezierair.com: +4 raw hits (deduped globally)
+2026-04-17 10:54:43,021 | INFO | leadgen.email_txt | delair.com: +5 raw hits (deduped globally)
+2026-04-17 10:54:44,843 | INFO | leadgen.email_txt | disabledperson.com: +1 raw hits (deduped globally)
+2026-04-17 10:54:45,398 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: eansolutionhvac.com
+2026-04-17 10:54:47,049 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: e3electric.com
+2026-04-17 10:54:47,684 | INFO | leadgen.email_txt | dynamicelecusa.com: +1 raw hits (deduped globally)
+2026-04-17 10:54:53,118 | INFO | leadgen.email_txt | elitepowerec.com: +10 raw hits (deduped globally)
+2026-04-17 10:54:53,606 | INFO | leadgen.email_txt | dakotaelectric.com: +1 raw hits (deduped globally)
+2026-04-17 10:54:55,458 | INFO | leadgen.email_txt | ecmweb.com: +14 raw hits (deduped globally)
+2026-04-17 10:54:57,395 | INFO | leadgen.email_txt | electricalmasterscompany.com: +1 raw hits (deduped globally)
+2026-04-17 10:54:59,739 | INFO | leadgen.email_txt | electricityrates.com: +3 raw hits (deduped globally)
+2026-04-17 10:55:08,843 | INFO | leadgen.email_txt | excellelectric.com: +2 raw hits (deduped globally)
+2026-04-17 10:55:08,975 | INFO | leadgen.email_txt | esub.com: +1 raw hits (deduped globally)
+2026-04-17 10:55:09,816 | INFO | leadgen.email_txt | enfrasolutions.com: +1 raw hits (deduped globally)
+2026-04-17 10:55:14,616 | INFO | leadgen.email_txt | e-mcservices.com: +1 raw hits (deduped globally)
+2026-04-17 10:55:16,428 | INFO | leadgen.email_txt | emertechelectrical.com: +1 raw hits (deduped globally)
+2026-04-17 10:55:18,363 | INFO | leadgen.email_txt | expertise.com: +2 raw hits (deduped globally)
+2026-04-17 10:55:31,052 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: cecfg.com
+2026-04-17 10:55:31,625 | INFO | leadgen.email_txt | fastserviceac.com: +1 raw hits (deduped globally)
+2026-04-17 10:55:34,361 | INFO | leadgen.email_txt | ferguson.com: +1 raw hits (deduped globally)
+2026-04-17 10:55:43,148 | INFO | leadgen.email_txt | fieldpiece.com: +4 raw hits (deduped globally)
+2026-04-17 10:55:43,150 | INFO | leadgen.email_txt | fixarnyc.com: +1 raw hits (deduped globally)
+2026-04-17 10:55:44,500 | INFO | leadgen.email_txt | figliasons.com: +2 raw hits (deduped globally)
+2026-04-17 10:55:48,903 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: fiskcorp.com
+2026-04-17 10:55:52,536 | INFO | leadgen.email_txt | flacservices.com: +1 raw hits (deduped globally)
+2026-04-17 10:55:53,282 | INFO | leadgen.email_txt | floridaairheatsolutions.com: +5 raw hits (deduped globally)
+2026-04-17 10:55:56,020 | INFO | leadgen.email_txt | flhvacservices.com: +1 raw hits (deduped globally)
+2026-04-17 10:55:58,088 | INFO | leadgen.email_txt | floridaclimatesolutions.com: +4 raw hits (deduped globally)
+2026-04-17 10:55:59,474 | INFO | leadgen.email_txt | floridafederalhvac.com: +1 raw hits (deduped globally)
+2026-04-17 10:56:01,068 | INFO | leadgen.email_txt | flairhvac.com: +1 raw hits (deduped globally)
+2026-04-17 10:56:02,081 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: colwellelectric.com
+2026-04-17 10:56:02,717 | INFO | leadgen.email_txt | floridaairservice.net: +1 raw hits (deduped globally)
+2026-04-17 10:56:04,552 | INFO | leadgen.email_txt | ferran-services.com: +6 raw hits (deduped globally)
+2026-04-17 10:56:05,139 | INFO | leadgen.email_txt | fortworth-air.com: +7 raw hits (deduped globally)
+2026-04-17 10:56:06,495 | INFO | leadgen.email_txt | floridacool.com: +10 raw hits (deduped globally)
+2026-04-17 10:56:12,565 | INFO | leadgen.email_txt | fujitsugeneral.com: +2 raw hits (deduped globally)
+2026-04-17 10:56:12,780 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: gamestop.com
+2026-04-17 10:56:16,305 | INFO | leadgen.email_txt | galarson.com: +1 raw hits (deduped globally)
+2026-04-17 10:56:16,634 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: gemaire.com
+2026-04-17 10:56:17,723 | INFO | leadgen.email_txt | fuserepairsf.com: +3 raw hits (deduped globally)
+2026-04-17 10:56:18,353 | INFO | leadgen.email_txt | gensco.com: +1 raw hits (deduped globally)
+2026-04-17 10:56:25,147 | INFO | leadgen.email_txt | goadmiral.com: +2 raw hits (deduped globally)
+2026-04-17 10:56:30,968 | INFO | leadgen.email_txt | greaterhoustonhvac.com: +1 raw hits (deduped globally)
+2026-04-17 10:56:31,993 | INFO | leadgen.email_txt | goodguysheatingcooling.com: +1 raw hits (deduped globally)
+2026-04-17 10:56:34,093 | INFO | leadgen.email_txt | goodmanmfg.com: +1 raw hits (deduped globally)
+2026-04-17 10:56:38,914 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: harmonyelectric.com
+2026-04-17 10:56:42,284 | INFO | leadgen.email_txt | greensenergy.com: +5 raw hits (deduped globally)
+2026-04-17 10:56:44,956 | INFO | leadgen.email_txt | hayselectrical.com: +3 raw hits (deduped globally)
+2026-04-17 10:56:47,441 | INFO | leadgen.email_txt | handymantips.org: +2 raw hits (deduped globally)
+2026-04-17 10:56:52,398 | INFO | leadgen.email_txt | hitechcentralair.com: +1 raw hits (deduped globally)
+2026-04-17 10:56:54,497 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: homans.com
+2026-04-17 10:56:56,494 | INFO | leadgen.email_txt | hisense-usa.com: +15 raw hits (deduped globally)
+2026-04-17 10:56:58,942 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: homecomfortusa.com
+2026-04-17 10:57:00,206 | INFO | leadgen.email_txt | hivacair.com: +1 raw hits (deduped globally)
+2026-04-17 10:57:05,859 | INFO | leadgen.email_txt | fuseservice.com: +38 raw hits (deduped globally)
+2026-04-17 10:57:07,441 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: hugca.com
+2026-04-17 10:57:09,102 | INFO | leadgen.email_txt | huntonservices.com: +2 raw hits (deduped globally)
+2026-04-17 10:57:12,339 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: houkac.com
+2026-04-17 10:57:17,160 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: hvaclaboratory.com
+2026-04-17 10:57:18,394 | INFO | leadgen.email_txt | hvaccontractorstexas.com: +2 raw hits (deduped globally)
+2026-04-17 10:57:20,711 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: elliottelectric.com
+2026-04-17 10:57:23,475 | INFO | leadgen.email_txt | hvacairconditionersnyc.com: +1 raw hits (deduped globally)
+2026-04-17 10:57:28,539 | INFO | leadgen.email_txt | hvacservicenyc.com: +1 raw hits (deduped globally)
+2026-04-17 10:57:30,290 | INFO | leadgen.email_txt | iecoftexas.org: +1 raw hits (deduped globally)
+2026-04-17 10:57:31,093 | INFO | leadgen.email_txt | hvacprosfl.com: +1 raw hits (deduped globally)
+2026-04-17 10:57:33,679 | INFO | leadgen.email_txt | iesresidentialinc.com: +8 raw hits (deduped globally)
+2026-04-17 10:57:34,976 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: ihireconstruction.com
+2026-04-17 10:57:35,305 | INFO | leadgen.email_txt | insights.cerco.ai: +1 raw hits (deduped globally)
+2026-04-17 10:57:45,112 | INFO | leadgen.email_txt | icmcontrols.com: +1 raw hits (deduped globally)
+2026-04-17 10:57:45,678 | INFO | leadgen.email_txt | icareaircare.com: +1 raw hits (deduped globally)
+2026-04-17 10:57:46,046 | INFO | leadgen.email_txt | hvacservicespro.com: +2 raw hits (deduped globally)
+2026-04-17 10:57:46,348 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: jmeg.us
+2026-04-17 10:57:48,384 | INFO | leadgen.email_txt | interstateair.com: +1 raw hits (deduped globally)
+2026-04-17 10:57:48,811 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: johnmooreservices.com
+2026-04-17 10:57:56,911 | INFO | leadgen.email_txt | jea.com: +1 raw hits (deduped globally)
+2026-04-17 10:57:58,319 | INFO | leadgen.email_txt | jofdav.com: +1 raw hits (deduped globally)
+2026-04-17 10:58:01,311 | INFO | leadgen.email_txt | jascko.com: +1 raw hits (deduped globally)
+2026-04-17 10:58:05,627 | INFO | leadgen.email_txt | kaback.com: +2 raw hits (deduped globally)
+2026-04-17 10:58:09,599 | INFO | leadgen.email_txt | kenmor.com: +1 raw hits (deduped globally)
+2026-04-17 10:58:10,366 | INFO | leadgen.email_txt | kahnmechanical.com: +6 raw hits (deduped globally)
+2026-04-17 10:58:10,398 | INFO | leadgen.email_txt | kalosflorida.com: +2 raw hits (deduped globally)
+2026-04-17 10:58:14,684 | INFO | leadgen.email_txt | larsentoubro.com: +30 raw hits (deduped globally)
+2026-04-17 10:58:15,359 | INFO | leadgen.email_txt | klimatech.com: +1 raw hits (deduped globally)
+2026-04-17 10:58:18,998 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: lexairconditioning.com
+2026-04-17 10:58:19,451 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: lighthouseelectrictexas.com
+2026-04-17 10:58:20,327 | INFO | leadgen.email_txt | knightelectricinc.com: +2 raw hits (deduped globally)
+2026-04-17 10:58:30,237 | INFO | leadgen.email_txt | lonestar-electrical.com: +5 raw hits (deduped globally)
+2026-04-17 10:58:33,881 | INFO | leadgen.email_txt | lionshvac.com: +1 raw hits (deduped globally)
+2026-04-17 10:58:34,900 | INFO | leadgen.email_txt | loenbro.com: +4 raw hits (deduped globally)
+2026-04-17 10:58:36,150 | INFO | leadgen.email_txt | majesticpowersolutions.com: +1 raw hits (deduped globally)
+2026-04-17 10:58:41,441 | INFO | leadgen.email_txt | mastec.com: +2 raw hits (deduped globally)
+2026-04-17 10:58:41,635 | INFO | leadgen.email_txt | massimomotor.com: +1 raw hits (deduped globally)
+2026-04-17 10:58:43,070 | INFO | leadgen.email_txt | local-ac.com: +1 raw hits (deduped globally)
+2026-04-17 10:58:46,947 | INFO | leadgen.email_txt | mapscaping.com: +1 raw hits (deduped globally)
+2026-04-17 10:58:48,674 | INFO | leadgen.email_txt | mccombssupply.com: +1 raw hits (deduped globally)
+2026-04-17 10:58:52,274 | INFO | leadgen.email_txt | mfg.activeairny.com: +1 raw hits (deduped globally)
+2026-04-17 10:58:53,627 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: mestek.com
+2026-04-17 10:58:58,756 | INFO | leadgen.email_txt | meltonelectric.com: +6 raw hits (deduped globally)
+2026-04-17 10:58:59,137 | INFO | leadgen.email_txt | mordorintelligence.com: +6 raw hits (deduped globally)
+2026-04-17 10:59:01,070 | INFO | leadgen.email_txt | modernize.com: +1 raw hits (deduped globally)
+2026-04-17 10:59:16,531 | INFO | leadgen.email_txt | mrelectricdallas.com: +1 raw hits (deduped globally)
+2026-04-17 10:59:16,749 | INFO | leadgen.email_txt | nccer.org: +2 raw hits (deduped globally)
+2026-04-17 10:59:18,361 | INFO | leadgen.email_txt | network.procore.com: +5 raw hits (deduped globally)
+2026-04-17 10:59:18,865 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: necanet.org
+2026-04-17 10:59:19,122 | INFO | leadgen.email_txt | myavista.com: +2 raw hits (deduped globally)
+2026-04-17 10:59:21,415 | INFO | leadgen.email_txt | neelyelectric.com: +2 raw hits (deduped globally)
+2026-04-17 10:59:22,555 | INFO | leadgen.email_txt | newyork.craigslist.org: +1 raw hits (deduped globally)
+2026-04-17 10:59:23,243 | INFO | leadgen.email_txt | mustairusa.com: +1 raw hits (deduped globally)
+2026-04-17 10:59:25,203 | INFO | leadgen.email_txt | newyorkheatingcoolingnyc.com: +1 raw hits (deduped globally)
+2026-04-17 10:59:25,304 | INFO | leadgen.email_txt | newyorkhvacchoice.com: +1 raw hits (deduped globally)
+2026-04-17 10:59:27,857 | INFO | leadgen.email_txt | newyorkhvacservices.com: +1 raw hits (deduped globally)
+2026-04-17 10:59:29,498 | INFO | leadgen.email_txt | newyorkhvacsolutions.com: +1 raw hits (deduped globally)
+2026-04-17 10:59:29,962 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: nexstarnetwork.com
+2026-04-17 10:59:34,953 | INFO | leadgen.email_txt | newyorkhvaccorp.com: +1 raw hits (deduped globally)
+2026-04-17 10:59:36,679 | INFO | leadgen.email_txt | nexgenairandplumbing.com: +1 raw hits (deduped globally)
+2026-04-17 10:59:45,046 | INFO | leadgen.email_txt | northpolecoolingny.com: +1 raw hits (deduped globally)
+2026-04-17 10:59:46,422 | INFO | leadgen.email_txt | ontime-electric.com: +1 raw hits (deduped globally)
+2026-04-17 10:59:49,646 | INFO | leadgen.email_txt | onpointheatingandair.com: +1 raw hits (deduped globally)
+2026-04-17 10:59:56,026 | INFO | leadgen.email_txt | nordyne.com: +2 raw hits (deduped globally)
+2026-04-17 11:00:03,237 | INFO | leadgen.email_txt | porch.com: +5 raw hits (deduped globally)
+2026-04-17 11:00:12,172 | INFO | leadgen.email_txt | pro.porch.com: +4 raw hits (deduped globally)
+2026-04-17 11:00:12,173 | INFO | leadgen.email_txt | prestigemcc.com: +1 raw hits (deduped globally)
+2026-04-17 11:00:16,395 | INFO | leadgen.email_txt | printit4less.com: +1 raw hits (deduped globally)
+2026-04-17 11:00:29,978 | INFO | leadgen.email_txt | rdgservice.com: +7 raw hits (deduped globally)
+2026-04-17 11:00:29,979 | INFO | leadgen.email_txt | qualityac.com: +1 raw hits (deduped globally)
+2026-04-17 11:00:31,764 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: recruit.net
+2026-04-17 11:00:33,429 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: pipedoc.net
+2026-04-17 11:00:36,651 | INFO | leadgen.email_txt | puremind.com: +3 raw hits (deduped globally)
+2026-04-17 11:00:38,024 | INFO | leadgen.email_txt | rejobs.org: +4 raw hits (deduped globally)
+2026-04-17 11:00:42,502 | INFO | leadgen.email_txt | reimerhvac.com: +2 raw hits (deduped globally)
+2026-04-17 11:00:43,689 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: proelectrical.net
+2026-04-17 11:00:45,612 | INFO | leadgen.email_txt | rinaldis.com: +1 raw hits (deduped globally)
+2026-04-17 11:00:45,782 | INFO | leadgen.email_txt | repairac.com: +1 raw hits (deduped globally)
+2026-04-17 11:00:51,860 | INFO | leadgen.email_txt | rualengg.com: +1 raw hits (deduped globally)
+2026-04-17 11:00:51,933 | INFO | leadgen.email_txt | rolandoshvac.com: +4 raw hits (deduped globally)
+2026-04-17 11:00:57,286 | INFO | leadgen.email_txt | rheem.com: +1 raw hits (deduped globally)
+2026-04-17 11:00:59,512 | INFO | leadgen.email_txt | sanfranciscoheatingandairconditioning.com: +2 raw hits (deduped globally)
+2026-04-17 11:01:01,280 | INFO | leadgen.email_txt | ruud.com: +1 raw hits (deduped globally)
+2026-04-17 11:01:01,763 | INFO | leadgen.email_txt | scott-electric.com: +14 raw hits (deduped globally)
+2026-04-17 11:01:01,809 | INFO | leadgen.email_txt | reynoldsonline.com: +2 raw hits (deduped globally)
+2026-04-17 11:01:04,394 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: germansacandheating.com
+2026-04-17 11:01:07,749 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: servicechampions.com
+2026-04-17 11:01:13,350 | INFO | leadgen.email_txt | servicestarbrands.com: +1 raw hits (deduped globally)
+2026-04-17 11:01:15,417 | INFO | leadgen.email_txt | samsunghvac.com: +1 raw hits (deduped globally)
+2026-04-17 11:01:17,263 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: siglers.com
+2026-04-17 11:01:20,090 | INFO | leadgen.email_txt | serviceexperts.com: +1 raw hits (deduped globally)
+2026-04-17 11:01:23,530 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: snyderac.com
+2026-04-17 11:01:29,014 | INFO | leadgen.email_txt | siteline.com: +1 raw hits (deduped globally)
+2026-04-17 11:01:29,082 | INFO | leadgen.email_txt | scottsair.com: +1 raw hits (deduped globally)
+2026-04-17 11:01:29,433 | INFO | leadgen.email_txt | solarpowerworldonline.com: +1 raw hits (deduped globally)
+2026-04-17 11:01:32,091 | INFO | leadgen.email_txt | servicewish.com: +1 raw hits (deduped globally)
+2026-04-17 11:01:32,722 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: standardoil.com
+2026-04-17 11:01:34,972 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: streamlineplumbinginc.com
+2026-04-17 11:01:35,486 | INFO | leadgen.email_txt | stanleyruth.com: +1 raw hits (deduped globally)
+2026-04-17 11:01:36,202 | INFO | leadgen.email_txt | southernelectrical.com: +1 raw hits (deduped globally)
+2026-04-17 11:01:40,228 | INFO | leadgen.email_txt | statista.com: +4 raw hits (deduped globally)
+2026-04-17 11:01:40,229 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: supercoolhvac.com
+2026-04-17 11:01:42,273 | INFO | leadgen.email_txt | surpluscityliquidators.com: +2 raw hits (deduped globally)
+2026-04-17 11:01:43,161 | INFO | leadgen.email_txt | superiorhvac.co: +3 raw hits (deduped globally)
+2026-04-17 11:01:47,088 | INFO | leadgen.email_txt | teamsoftexas.com: +2 raw hits (deduped globally)
+2026-04-17 11:01:48,517 | INFO | leadgen.email_txt | southfloridaair.com: +3 raw hits (deduped globally)
+2026-04-17 11:01:49,171 | INFO | leadgen.email_txt | sunstateequip.com: +7 raw hits (deduped globally)
+2026-04-17 11:01:50,004 | INFO | leadgen.email_txt | tagcompanies.com: +1 raw hits (deduped globally)
+2026-04-17 11:01:53,632 | INFO | leadgen.email_txt | texanelectric.com: +1 raw hits (deduped globally)
+2026-04-17 11:01:54,990 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: texas-mep.com
+2026-04-17 11:01:55,965 | INFO | leadgen.email_txt | teamenoch.com: +3 raw hits (deduped globally)
+2026-04-17 11:02:00,155 | INFO | leadgen.email_txt | texaselectricalservices.com: +1 raw hits (deduped globally)
+2026-04-17 11:02:01,052 | INFO | leadgen.email_txt | texasacehvac.com: +1 raw hits (deduped globally)
+2026-04-17 11:02:01,549 | INFO | leadgen.email_txt | temp-con.com: +54 raw hits (deduped globally)
+2026-04-17 11:02:02,908 | INFO | leadgen.email_txt | suncoastacflorida.com: +1 raw hits (deduped globally)
+2026-04-17 11:02:03,885 | INFO | leadgen.email_txt | southcountyairservices.com: +2 raw hits (deduped globally)
+2026-04-17 11:02:05,022 | INFO | leadgen.email_txt | texasairflow.com: +1 raw hits (deduped globally)
+2026-04-17 11:02:10,882 | INFO | leadgen.email_txt | texasairzone.com: +3 raw hits (deduped globally)
+2026-04-17 11:02:10,953 | INFO | leadgen.email_txt | texasairco.com: +2 raw hits (deduped globally)
+2026-04-17 11:02:14,746 | INFO | leadgen.email_txt | texasprohvac.com: +10 raw hits (deduped globally)
+2026-04-17 11:02:15,631 | INFO | leadgen.email_txt | texaselectrical.com: +1 raw hits (deduped globally)
+2026-04-17 11:02:19,013 | INFO | leadgen.email_txt | tempoair.com: +8 raw hits (deduped globally)
+2026-04-17 11:02:21,710 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: thetoptens.com
+2026-04-17 11:02:21,967 | INFO | leadgen.email_txt | texashvaccompany.com: +1 raw hits (deduped globally)
+2026-04-17 11:02:22,106 | INFO | leadgen.email_txt | the-hvacguys.com: +11 raw hits (deduped globally)
+2026-04-17 11:02:22,992 | INFO | leadgen.email_txt | texasrefrig.com: +1 raw hits (deduped globally)
+2026-04-17 11:02:26,828 | INFO | leadgen.email_txt | thebluebook.com: +3 raw hits (deduped globally)
+2026-04-17 11:02:28,640 | INFO | leadgen.email_txt | therightservicefl.com: +2 raw hits (deduped globally)
+2026-04-17 11:02:30,541 | INFO | leadgen.email_txt | texelectrical.com: +2 raw hits (deduped globally)
+2026-04-17 11:02:30,811 | INFO | leadgen.email_txt | texashvacheatingllc.com: +1 raw hits (deduped globally)
+2026-04-17 11:02:31,258 | INFO | leadgen.email_txt | topteamhvac.com: +2 raw hits (deduped globally)
+2026-04-17 11:02:32,420 | INFO | leadgen.email_txt | thomsenelectric.com: +1 raw hits (deduped globally)
+2026-04-17 11:02:34,306 | INFO | leadgen.email_txt | threebestrated.com: +3 raw hits (deduped globally)
+2026-04-17 11:02:35,932 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: trinityac.com
+2026-04-17 11:02:42,678 | INFO | leadgen.email_txt | todayshomeowner.com: +1 raw hits (deduped globally)
+2026-04-17 11:02:44,748 | INFO | leadgen.email_txt | txmadeelectrical.com: +1 raw hits (deduped globally)
+2026-04-17 11:02:46,379 | INFO | leadgen.email_txt | txinfinityheatingandcooling.com: +7 raw hits (deduped globally)
+2026-04-17 11:02:49,978 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: trane.com
+2026-04-17 11:02:51,019 | INFO | leadgen.email_txt | upheatingandcooling.com: +1 raw hits (deduped globally)
+2026-04-17 11:02:51,653 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: us.businessesforsale.com
+2026-04-17 11:02:58,366 | INFO | leadgen.email_txt | universalservicescrp.com: +1 raw hits (deduped globally)
+2026-04-17 11:02:58,633 | INFO | leadgen.email_txt | universalhvaclosangeles.com: +1 raw hits (deduped globally)
+2026-04-17 11:03:01,056 | INFO | leadgen.email_txt | usaelectricllc.com: +1 raw hits (deduped globally)
+2026-04-17 11:03:03,569 | INFO | leadgen.email_txt | unicosystem.com: +1 raw hits (deduped globally)
+2026-04-17 11:03:07,342 | INFO | leadgen.email_txt | valleyairrepair.com: +1 raw hits (deduped globally)
+2026-04-17 11:03:08,631 | INFO | leadgen.email_txt | vitalptacsolutions.com: +1 raw hits (deduped globally)
+2026-04-17 11:03:08,966 | INFO | leadgen.email_txt | velocityairconditioning.com: +2 raw hits (deduped globally)
+2026-04-17 11:03:09,112 | INFO | leadgen.email_txt | usairsvcinc.com: +1 raw hits (deduped globally)
+2026-04-17 11:03:11,358 | INFO | leadgen.email_txt | voltcoreelectrical.com: +3 raw hits (deduped globally)
+2026-04-17 11:03:11,921 | INFO | leadgen.email_txt | usatoday.com: +1 raw hits (deduped globally)
+2026-04-17 11:03:11,923 | INFO | leadgen.email_txt | txhvacrepair.com: +1 raw hits (deduped globally)
+2026-04-17 11:03:17,208 | INFO | leadgen.email_txt | wedohvacus.com: +13 raw hits (deduped globally)
+2026-04-17 11:03:20,839 | INFO | leadgen.email_txt | westinghousenuclear.com: +2 raw hits (deduped globally)
+2026-04-17 11:03:21,509 | INFO | leadgen.email_txt | westsidehvac.com: +1 raw hits (deduped globally)
+2026-04-17 11:03:24,836 | INFO | leadgen.email_txt | williamselectrichvac.com: +11 raw hits (deduped globally)
+2026-04-17 11:03:27,086 | INFO | leadgen.email_txt | westernhvac.com: +7 raw hits (deduped globally)
+2026-04-17 11:03:28,035 | INFO | leadgen.email_txt | veteranairusa.net: +3 raw hits (deduped globally)
+2026-04-17 11:03:28,617 | INFO | leadgen.email_txt | HTTP blocked or empty → Playwright fallback queued: wsp.com
+2026-04-17 11:03:32,925 | INFO | leadgen.email_txt | yorkhvacservices.com: +1 raw hits (deduped globally)
+2026-04-17 11:03:36,351 | INFO | leadgen.email_txt | worldsgreatesthvac.com: +12 raw hits (deduped globally)
+2026-04-17 11:03:49,162 | INFO | leadgen.email_txt | webbair.com: +1 raw hits (deduped globally)
+2026-04-17 11:03:58,924 | INFO | leadgen.email_txt | xtremeairservices.com: +1 raw hits (deduped globally)
+2026-04-17 11:04:39,507 | INFO | leadgen.email_txt | waveshvac.com: +1 raw hits (deduped globally)
+2026-04-17 11:04:39,510 | INFO | leadgen.email_txt | Playwright fallback: achrnews.com
+2026-04-17 11:04:57,874 | INFO | leadgen.email_txt | Playwright fallback: 4abc.com
+2026-04-17 11:05:14,415 | INFO | leadgen.email_txt | Playwright fallback: acrepairnewyorkny.com
+2026-04-17 11:05:27,446 | INFO | leadgen.email_txt | Playwright fallback: airconditionermiami.com
+2026-04-17 11:05:39,985 | INFO | leadgen.email_txt | Playwright fallback: airconditioning-florida.com

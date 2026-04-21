@@ -34,8 +34,10 @@ def _b64_decode_to_url(blob: str) -> str | None:
 
 def decode_bing_u_parameter(u_raw: str) -> str | None:
     """
-    Decode the Bing `u` query value (may be URL-encoded, sometimes chained).
-    Returns final https URL or None.
+    Decode the Bing ``u`` query value (may be URL-encoded, sometimes chained).
+
+    Bing ``/ck/a`` links often prefix the base64 blob with a short marker (e.g. ``a1``,
+    ``a2``) before the actual URL-safe base64; strip those and retry.
     """
     if not u_raw:
         return None
@@ -44,9 +46,17 @@ def decode_bing_u_parameter(u_raw: str) -> str | None:
         current = current.strip()
         if current.startswith("http://") or current.startswith("https://"):
             return current.split()[0]
-        decoded = _b64_decode_to_url(current)
-        if decoded:
-            return decoded
+        variants = [current]
+        if len(current) >= 4 and current[:2] in ("a1", "a2", "a3") and current[2:3].isalnum():
+            variants.insert(0, current[2:])
+        seen_v: set[str] = set()
+        for v in variants:
+            if not v or v in seen_v:
+                continue
+            seen_v.add(v)
+            decoded = _b64_decode_to_url(v)
+            if decoded:
+                return decoded
         nxt = unquote(current)
         if nxt == current:
             break

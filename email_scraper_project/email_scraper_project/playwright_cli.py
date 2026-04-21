@@ -5,6 +5,15 @@ Examples:
   python -m email_scraper_project.playwright_cli collect --keyword "motor rewinding" --country USA --results 80
   python -m email_scraper_project.playwright_cli collect --queries-file queries.txt --per-engine-max 30 --results 200
   python -m email_scraper_project.playwright_cli crawl --workers 8
+
+While ``collect`` runs, create ``leadgen_skip_engine.txt`` in the data folder (see
+``email_scraper_project.config.data_dir``) containing ``bing``, ``duckduckgo``, ``yahoo``,
+``google``, or ``all`` to skip the next matching engine (same as the Streamlit skip buttons).
+
+Create ``leadgen_stop_collection.txt`` in the same folder (or use Streamlit **Stop collect** /
+**Stop Collection**) to request a graceful stop after the current browser step.
+
+Env: ``LEADGEN_SERP_SCREENSHOT=1`` saves full-page SERP PNGs under ``logs/serp_screenshots/``.
 """
 
 from __future__ import annotations
@@ -18,6 +27,7 @@ from email_scraper_project.browser_search.playwright_collector import (
     ENGINE_ORDER_DEFAULT,
     collect_domains_playwright,
 )
+from email_scraper_project.browser_search.stop_collection_request import clear_stop_collection_request
 from email_scraper_project.email_txt_crawler.threaded_crawler import crawl_domains_to_emails_txt
 from email_scraper_project.logging_config import ensure_leadgen_file_log
 
@@ -73,13 +83,16 @@ def _collect_kwargs(args: argparse.Namespace, headless: bool) -> dict:
 
     pem = getattr(args, "per_engine_max", 0) or None
     order = _parse_engine_order(getattr(args, "engine_order", "") or "")
+    unlimited = bool(getattr(args, "unlimited", False))
+    raw_results = max(10, int(getattr(args, "results", 100)))
+    max_results = raw_results if unlimited else max(10, min(raw_results, 2_000_000))
 
     return dict(
         keyword=getattr(args, "keyword", "") or "",
         country=getattr(args, "country", "") or "",
         states=getattr(args, "states", "") or "",
         queries=queries,
-        max_results=max(10, min(int(args.results), 5000)),
+        max_results=max_results,
         per_engine_max=pem,
         use_bing=not args.no_bing,
         use_duckduckgo=not getattr(args, "no_ddg", False),
@@ -91,6 +104,8 @@ def _collect_kwargs(args: argparse.Namespace, headless: bool) -> dict:
         append=not args.no_append,
         captcha_mode=args.captcha_mode,
         captcha_wait_ms=args.captcha_wait_ms,
+        b2b_enrich=getattr(args, "b2b_queries", False),
+        unlimited=unlimited,
     )
 
 
@@ -107,7 +122,17 @@ def main() -> None:
         default="",
         help="One search query per line (overrides --keyword / --country / --states)",
     )
-    p_col.add_argument("--results", type=int, default=100, help="Max total unique domains (stop when reached)")
+    p_col.add_argument(
+        "--results",
+        type=int,
+        default=100,
+        help="Max total unique domains (stop when reached); with --unlimited used mainly for per-engine sizing",
+    )
+    p_col.add_argument(
+        "--unlimited",
+        action="store_true",
+        help="Ignore total domain cap; repeat queries until leadgen_stop_collection.txt or Ctrl+C",
+    )
     p_col.add_argument(
         "--per-engine-max",
         type=int,
@@ -156,9 +181,14 @@ def main() -> None:
         "--captcha-mode",
         choices=("stdin", "wait"),
         default=os.environ.get("LEADGEN_CAPTCHA_MODE", "stdin"),
-        help="stdin=press Enter after solve; wait=sleep only (see --captcha-wait-ms)",
+        help="stdin=solve in browser then press Enter; wait=poll until cleared or --captcha-wait-ms",
     )
     p_col.add_argument("--captcha-wait-ms", type=int, default=300_000)
+    p_col.add_argument(
+        "--b2b-queries",
+        action="store_true",
+        help="Add B2B-style browser queries (company/services + region)",
+    )
 
     p_cr = sub.add_parser("crawl", help="Threaded HTTP crawl to emails.txt")
     p_cr.add_argument("--workers", type=int, default=6)
@@ -189,15 +219,30 @@ def main() -> None:
         p.add_argument("--no-append-domains", action="store_true")
         p.add_argument("--no-append-emails", action="store_true")
         p.add_argument("--workers", type=int, default=6)
-        p.add_argument("--captcha-mode", choices=("stdin", "wait"), default="stdin")
+        p.add_argument(
+            "--captcha-mode",
+            choices=("stdin", "wait"),
+            default=os.environ.get("LEADGEN_CAPTCHA_MODE", "stdin"),
+        )
         p.add_argument("--captcha-wait-ms", type=int, default=300_000)
         p.add_argument("--fallback-headful", action="store_true")
+        p.add_argument(
+            "--b2b-queries",
+            action="store_true",
+            help="Add B2B-style browser queries (company/services + region)",
+        )
+        p.add_argument(
+            "--unlimited",
+            action="store_true",
+            help="Ignore total domain cap during collect (then crawl)",
+        )
 
     args = parser.parse_args()
     ensure_leadgen_file_log()
     headless = _bool_env("LEADGEN_PLAYWRIGHT_HEADLESS", False)
 
     if args.cmd == "collect":
+        clear_stop_collection_request()
         kw = _collect_kwargs(args, headless)
         if not kw["queries"] and not (kw["keyword"] or kw["country"] or kw["states"]):
             kw["keyword"] = "business"
@@ -209,6 +254,7 @@ def main() -> None:
             append=not args.no_append,
         )
     elif args.cmd == "all":
+        clear_stop_collection_request()
         merged = argparse.Namespace(**vars(args))
         merged.no_append = getattr(args, "no_append_domains", False)
         kw = _collect_kwargs(merged, headless)

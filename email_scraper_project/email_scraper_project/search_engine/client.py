@@ -17,7 +17,9 @@ from requests.exceptions import (
 )
 from urllib.parse import urlparse
 
+from email_scraper_project.browser_search.bing_url_decode import resolve_search_result_href
 from email_scraper_project.domain_cleaner import clean_domain, normalize_url
+from email_scraper_project.lead_qualifier import should_drop_collected_host
 
 logger = logging.getLogger("leadgen.search")
 
@@ -135,7 +137,7 @@ class SearchClient:
         raise last_exc if last_exc else RuntimeError("request failed")
 
     def fetch_duckduckgo(self, query: str, start: int) -> list[str]:
-        url = "https://duckduckgo.com/html/"
+        url = "https://html.duckduckgo.com/html/"
         params = {"q": query, "s": str(start)}
         r = self._get(url, params=params)
         soup = BeautifulSoup(r.text, "html.parser")
@@ -158,7 +160,8 @@ class SearchClient:
         for a in soup.select("li.b_algo h2 a"):
             href = a.get("href")
             if href:
-                n = normalize_url(href) or href
+                resolved = resolve_search_result_href(href)
+                n = normalize_url(resolved) or resolved
                 links.append(n)
         return links
 
@@ -168,7 +171,7 @@ class SearchClient:
         r = self._get(url, params=params)
         soup = BeautifulSoup(r.text, "html.parser")
         links: list[str] = []
-        for a in soup.select("h3.title a"):
+        for a in soup.select("div.algo h3 a, h3.title a"):
             href = a.get("href")
             if not href:
                 continue
@@ -224,10 +227,13 @@ class SearchClient:
                     break
 
                 for link in links:
-                    if "aclick" in link or "y.js" in link:
+                    low = link.lower()
+                    if "y.js" in low:
+                        continue
+                    if "bing.com" in low and ("/ck/" in low or "aclick" in low):
                         continue
                     d = clean_domain(link)
-                    if d and d not in seen:
+                    if d and d not in seen and not should_drop_collected_host(d):
                         seen.add(d)
                         domains.append(d)
 
@@ -263,6 +269,8 @@ def build_search_queries(
     state: str = "",
     city: str = "",
     industry: str = "",
+    *,
+    b2b_enrich: bool = False,
 ) -> list[str]:
     """Generate diverse query strings from user inputs."""
     kws = [k.strip() for k in keywords.replace(";", ",").split(",") if k.strip()]
@@ -296,4 +304,24 @@ def build_search_queries(
             if q and q not in seen:
                 seen.add(q)
                 queries.append(q)
+    if b2b_enrich:
+        st_only = (state or "").strip()
+        for kw in kws:
+            for extra in (
+                f"{kw} company {location}".strip(),
+                f"{kw} services {location}".strip(),
+            ):
+                q = " ".join(extra.split())
+                if q and q not in seen:
+                    seen.add(q)
+                    queries.append(q)
+            if st_only:
+                for extra in (
+                    f"{kw} company {st_only}".strip(),
+                    f"{kw} services {st_only} {country or 'USA'}".strip(),
+                ):
+                    q = " ".join(extra.split())
+                    if q and q not in seen:
+                        seen.add(q)
+                        queries.append(q)
     return queries

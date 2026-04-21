@@ -16,7 +16,9 @@ import requests
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
+from email_scraper_project.browser_search.playwright_collector import windows_playwright_asyncio_guard
 from email_scraper_project.config import domains_path, emails_txt_path
+from email_scraper_project.lead_qualifier import normalize_domain_host
 from email_scraper_project.logging_config import ensure_leadgen_file_log
 from email_scraper_project.email_txt_crawler.extract import extract_emails_from_html, iter_mailto_hrefs
 
@@ -34,13 +36,23 @@ def _domain_from_line(line: str) -> str | None:
     if not s or s.startswith("#"):
         return None
     s = s.replace("http://", "").replace("https://", "").split("/")[0].strip()
+    s = normalize_domain_host(s)
     return s.lower() or None
 
 
 def _candidate_urls(domain: str) -> list[str]:
     d = domain.strip().lower().lstrip(".")
     base = f"https://{d}".rstrip("/")
-    paths = ["/", "/contact", "/contact-us", "/about", "/about-us"]
+    paths = [
+        "/contact",
+        "/contact-us",
+        "/about",
+        "/about-us",
+        "/team",
+        "/our-team",
+        "/services",
+        "/",
+    ]
     urls: list[str] = []
     for p in paths:
         urls.append(base + "/" if p == "/" else base + p)
@@ -90,22 +102,27 @@ def _emails_from_page(html: str, page_url: str, domain: str) -> list[tuple[str, 
 def _playwright_fetch_urls(urls: list[str], headless: bool = True) -> list[tuple[str, str]]:
     """Return list of (url, html) for first successful loads."""
     results: list[tuple[str, str]] = []
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=headless, args=["--disable-blink-features=AutomationControlled"])
-        ctx = browser.new_context(user_agent=random.choice(USER_AGENTS), viewport={"width": 1280, "height": 800})
-        page = ctx.new_page()
-        try:
-            for u in urls:
-                try:
-                    page.goto(u, wait_until="domcontentloaded", timeout=25_000)
-                    time.sleep(random.uniform(0.4, 1.1))
-                    html = page.content()
-                    results.append((u, html))
-                except Exception as e:
-                    logger.debug("playwright %s: %s", u, e)
-        finally:
-            ctx.close()
-            browser.close()
+    with windows_playwright_asyncio_guard():
+        with sync_playwright() as p:
+            browser = p.chromium.launch(
+                headless=headless, args=["--disable-blink-features=AutomationControlled"]
+            )
+            ctx = browser.new_context(
+                user_agent=random.choice(USER_AGENTS), viewport={"width": 1280, "height": 800}
+            )
+            page = ctx.new_page()
+            try:
+                for u in urls:
+                    try:
+                        page.goto(u, wait_until="domcontentloaded", timeout=25_000)
+                        time.sleep(random.uniform(0.4, 1.1))
+                        html = page.content()
+                        results.append((u, html))
+                    except Exception as e:
+                        logger.debug("playwright %s: %s", u, e)
+            finally:
+                ctx.close()
+                browser.close()
     return results
 
 
@@ -167,9 +184,11 @@ def crawl_domains_to_emails_txt(
         return {"domains": 0, "emails_new": 0, "errors": 1}
 
     domains_list: list[str] = []
+    seen_domains: set[str] = set()
     for line in dpath.read_text(encoding="utf-8", errors="ignore").splitlines():
         d = _domain_from_line(line)
-        if d:
+        if d and d not in seen_domains:
+            seen_domains.add(d)
             domains_list.append(d)
 
     seen_emails: set[str] = set()
@@ -184,6 +203,9 @@ def crawl_domains_to_emails_txt(
             part = line.split("\t")[0].split(",")[0].strip().lower()
             if "@" in part:
                 seen_emails.add(part)
+    else:
+        # Ensure output file exists even when no emails are found.
+        out.write_text("# email\tdomain\tsource_url\n", encoding="utf-8")
 
     write_lock = threading.Lock()
     new_count = 0
@@ -203,6 +225,10 @@ def crawl_domains_to_emails_txt(
                         continue
                     seen_emails.add(el)
                     f.write(f"{email}\t{dom}\t{src}\n")
+                    try:
+                        f.flush()
+                    except OSError:
+                        pass
                     new_count += 1
 
     fallback_domains: list[str] = []
